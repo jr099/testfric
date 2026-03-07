@@ -1,0 +1,275 @@
+{
+  "segment_insights": {
+    "economic_insights": [
+      "Le segment convertit l’effort de jeu en valeur perçue via une boutique centrale, mais au prix d’une économie trop fragmentée.",
+      "Le revenu principal vient du pay-to-accelerate (achat de ressources qui augmentent le volume d’opportunités), pas uniquement du divertissement.",
+      "La convertibilité vers des récompenses à valeur externe est le moteur d’attractivité et de monétisation.",
+      "La complexité multi-ressources soutient la rétention court terme mais dégrade la compréhension du coût réel et de la progression.",
+      "La preuve sociale des gains agit comme levier commercial majeur et doit être contextualisée pour rester crédible."
+    ],
+    "retention_insights": [
+      "Le segment combine boucle quotidienne, récompense variable et objectifs de classement pour créer une habitude de retour.",
+      "Les concours événementiels fournissent des pics d’engagement mais augmentent la pression comportementale.",
+      "La progression compétitive fonctionne, mais devient opaque quand trop de compteurs coexistent.",
+      "La boutique fait office de destination motivationnelle de long terme pour donner du sens au grind.",
+      "La relance immédiate post-partie maximise la répétition de sessions courtes."
+    ],
+    "legal_insights": [
+      "Le triptyque hasard + participation financière + espérance de gain est une zone de vigilance structurelle du segment.",
+      "L’influence de l’achat sur les opportunités de gain est le point juridique le plus sensible.",
+      "La convertibilité vers des valeurs patrimoniales impose des règles de transparence élevées (probabilités, conditions, délais).",
+      "La complexité de l’économie interne peut être perçue comme une opacité commerciale si les équivalences sont peu lisibles.",
+      "Le tracking et le consentement doivent être prouvables, granulaires et auditables."
+    ],
+    "technical_insights": [
+      "Le segment legacy montre une forte opportunité de rupture via une architecture API-first moderne.",
+      "Le couplage page/route/logique métier réduit la maintenabilité et la vitesse d’évolution.",
+      "La traçabilité des flux de valeur doit devenir un objet technique de premier ordre (ledger, events, audit logs).",
+      "L’UX fragile et le front hétérogène sont des freins de confiance produit.",
+      "La modernisation doit prioriser fiabilité mobile, observabilité et contrôle de conformité."
+    ],
+    "behavioral_insights": [
+      "Les leviers de récompense variable et FOMO sont efficaces mais peuvent dériver vers des patterns trop agressifs.",
+      "La rareté et la preuve sociale doivent être accompagnées de contexte pour éviter l’effet trompeur.",
+      "La pression classement peut renforcer l’engagement sans imposer une escalade payante.",
+      "La complexité cognitive des monnaies augmente la friction de compréhension et peut biaiser la décision utilisateur.",
+      "Un design responsable peut conserver l’engagement en limitant l’intensification artificielle."
+    ]
+  },
+  "product_direction": {
+    "working_name": "PulsePlay",
+    "positioning": "Plateforme de mini-jeux compétitifs et progression transparente, mobile-first, orientée confiance et maîtrise utilisateur.",
+    "core_value_proposition": "Transformer le temps de jeu en progression lisible et récompenses clairement encadrées, avec une économie simple et des règles explicites.",
+    "target_users": [
+      "Joueurs casual recherchant des sessions courtes et claires",
+      "Joueurs compétitifs souhaitant des classements équitables",
+      "Utilisateurs sensibles à la transparence des règles de gain",
+      "Utilisateurs mobile-first"
+    ],
+    "differentiation_axes": [
+      "Économie réduite à peu de ressources compréhensibles",
+      "Probabilités, barèmes et règles de conversion publiés",
+      "Compétition équilibrée avec séparation nette entre fun et monétisation",
+      "Traçabilité utilisateur des gains, conversions et retraits",
+      "Conformité-by-design visible dans le produit"
+    ],
+    "trust_principles": [
+      "Règles de gain explicites avant chaque action",
+      "Équivalences de valeur affichées en continu",
+      "Historique personnel auditable des transactions et récompenses",
+      "Aucune promesse implicite de rendement",
+      "Communication claire sur risques et limites"
+    ],
+    "responsible_design_principles": [
+      "Limiter les boucles d’intensification non choisies",
+      "Introduire des pauses et rappels de temps de jeu",
+      "Réduire la pression FOMO par calendriers prévisibles",
+      "Éviter les faux signaux d’urgence ou de rareté",
+      "Concevoir la progression sans dépendance obligatoire à l’achat"
+    ]
+  },
+  "modernized_value_model": {
+    "resources_to_keep": [
+      "Crédits de jeu",
+      "Progression joueur",
+      "Récompenses boutique",
+      "Classement saisonnier"
+    ],
+    "resources_to_merge": [
+      "Fusionner parties gratuites/payantes/bonus en `Tickets` avec provenance explicite",
+      "Fusionner points VIP/collector/concours/clans en `XP Saison`",
+      "Fusionner monnaies premium intermédiaires en `Gems` optionnels non convertibles en cash"
+    ],
+    "resources_to_remove": [
+      "Ressources redondantes de type Graal/Graal+/multipoints",
+      "Compteurs parallèles non explicables en une phrase",
+      "Mécaniques de conversion opaques"
+    ],
+    "recommended_resource_model": [
+      "Coins: monnaie d’usage gagnée en jeu pour boutique interne non cash",
+      "Tickets: unité d’entrée en partie (gratuits quotidiens + bonus transparents)",
+      "XP Saison: progression compétitive et déblocages non monétaires",
+      "Gems: achat optionnel pour confort/cosmétique/accélération non liée aux probabilités",
+      "Reward Credits: solde de récompenses éligibles, séparé des monnaies de jeu"
+    ],
+    "conversion_rules": [
+      "Règle 1: aucune conversion directe Gems -> Reward Credits",
+      "Règle 2: Coins -> boutique digitale selon barème fixe public",
+      "Règle 3: Reward Credits générés uniquement par règles annoncées (événements, objectifs, performances)",
+      "Règle 4: taux et plafonds de conversion versionnés et historisés",
+      "Règle 5: journal utilisateur de toutes conversions"
+    ],
+    "value_exit_rules": [
+      "Catalogue de sorties limité et clairement catégorisé (digital, carte cadeau, cash selon cadre légal)",
+      "Seuils minimums et délais de traitement affichés avant validation",
+      "Vérifications d’identité proportionnées si nécessaire",
+      "Politique anti-fraude transparente et contestable",
+      "Statut de chaque demande de sortie consultable en temps réel"
+    ],
+    "legal_safeguards": [
+      "Séparer strictement ce qui est achetable de ce qui ouvre une sortie patrimoniale",
+      "Publier probabilités et méthodes de tirage pour tout mécanisme aléatoire",
+      "Interdire toute formulation pouvant suggérer un revenu garanti",
+      "Rendre la gratuité réellement praticable avec progression significative",
+      "Audit interne périodique des taux de gain et des communications marketing"
+    ]
+  },
+  "engagement_model": {
+    "core_loops": [
+      "Loop Quotidienne: tickets gratuits -> mini-jeux -> coins/xp -> objectifs journaliers",
+      "Loop Maîtrise: missions de compétence -> bonus contrôlés -> progression de niveau",
+      "Loop Saison: défis hebdo -> XP Saison -> classement saisonnier -> récompenses non ambiguës",
+      "Loop Boutique: accumulation -> échange clair -> satisfaction -> retour en jeu"
+    ],
+    "progression_model": [
+      "Niveaux saisonniers lisibles (débutant, challenger, expert) avec critères publics",
+      "Objectifs multi-horizons (jour/semaine/saison) sans inflation de compteurs",
+      "Récompenses de progression majoritairement non monétaires (cosmétiques, statuts, accès modes)",
+      "Cap de progression quotidien pour éviter la sur-intensification"
+    ],
+    "competition_model": [
+      "Classements par saison avec reset annoncé à l’avance",
+      "Modes compétitifs séparés: `standard` et `boosted` pour préserver l’équité",
+      "Récompenses compétitives majoritairement symboliques/cosmétiques",
+      "Règlement de compétition versionné et accessible in-app"
+    ],
+    "social_proof_model": [
+      "Mettre en avant statistiques agrégées vérifiables plutôt que storytelling agressif",
+      "Afficher témoignages modérés et contextualisés",
+      "Publier tableaux de distribution des gains de manière anonymisée",
+      "Éviter les compteurs sensationnalistes non expliqués"
+    ],
+    "anti_dark_pattern_guards": [
+      "Pas de countdown trompeur ni d’urgence artificielle",
+      "Pas de quasi-gain scénarisé pour pousser à l’achat",
+      "Rappels de budget et de temps configurables",
+      "Refroidissement optionnel après sessions intensives",
+      "Paramètres de contrôle utilisateur (limites dépenses, pauses, notifications)"
+    ]
+  },
+  "functional_architecture_phase1": {
+    "public_experience": [
+      "Landing claire: proposition de valeur, règles clés, transparence probabilités",
+      "Catalogue jeux et règles accessibles sans inscription",
+      "Centre de confiance: conformité, FAQ juridique, politique récompenses",
+      "Simulateur de progression non engageant financièrement"
+    ],
+    "authenticated_experience": [
+      "Dashboard unique: soldes, progression, objectifs, historique",
+      "Hub jeux: démarrage rapide, règles visibles, coût d’entrée explicite",
+      "Hub saison: classement, missions, récompenses",
+      "Hub rewards: conversion, demandes, suivi statut",
+      "Centre compte: sécurité, consentements, limites personnelles"
+    ],
+    "wallet_and_rewards_principles": [
+      "Un écran portefeuille unifié avec sections explicites",
+      "Ledger horodaté pour chaque variation de solde",
+      "Équivalence de valeur affichée avant toute confirmation",
+      "Historique exportable pour audit utilisateur"
+    ],
+    "payments_and_value_flow_principles": [
+      "Paiement cantonné aux options de confort/accélération non ambiguës",
+      "Double confirmation pour toute action financière",
+      "Réconciliation automatique paiements <-> crédits",
+      "Traçabilité bout-en-bout de l’entrée à la sortie de valeur"
+    ]
+  },
+  "ux_ui_direction_phase1": {
+    "design_goals": [
+      "Compréhension immédiate des ressources et des flux",
+      "Réduction de la charge cognitive",
+      "Confiance visuelle et textuelle",
+      "Performance mobile élevée"
+    ],
+    "navigation_principles": [
+      "Navigation primaire en 4 onglets: Jouer, Saison, Rewards, Compte",
+      "Accès en un tap aux règles et probabilités depuis chaque jeu",
+      "Parcours courts avec feedback instantané",
+      "Hiérarchie claire entre progression, compétition et conversion"
+    ],
+    "economy_visibility_principles": [
+      "Affichage persistant des soldes essentiels uniquement",
+      "Tooltips explicatifs sur chaque ressource",
+      "Prévisualisation des impacts avant conversion/achat",
+      "Historique filtrable par type de transaction"
+    ],
+    "mobile_first_principles": [
+      "Composants tactiles larges et actions sécurisées",
+      "Temps de chargement minimal et skeletons",
+      "Sessions courtes optimisées (30-90 secondes)",
+      "Accessibilité native (contrastes, taille texte, focus)"
+    ],
+    "trust_ui_patterns": [
+      "Bandeau de transparence sur probabilités et règles en contexte",
+      "Badges `Vérifié` sur données auditées",
+      "États de demande reward clairs (reçu, en cours, validé, versé)",
+      "Journal personnel immuable côté utilisateur"
+    ]
+  },
+  "technical_architecture_phase1": {
+    "architecture_principles": [
+      "API-first modulaire avec séparation domaine jeu/paiement/rewards",
+      "Event-driven pour les mouvements de valeur",
+      "Idempotence des opérations financières",
+      "Versioning des règles métier et barèmes"
+    ],
+    "frontend_direction": [
+      "React + TypeScript strict + design system mobile-first",
+      "State management centré sur domaines (wallet, gameplay, rewards)",
+      "Validation schémas I/O côté client",
+      "Feature flags pour itérations de game design"
+    ],
+    "backend_direction": [
+      "BFF/API sécurisée avec services métier explicites",
+      "Moteur de règles de récompense séparé du moteur d’achat",
+      "Service concours/saisons avec paramètres versionnés",
+      "Webhooks de paiement avec file de traitement et reprise"
+    ],
+    "data_direction": [
+      "Modèle simple: users, wallets, wallet_ledger, game_runs, season_progress, rewards, payouts, payments",
+      "Journal comptable append-only pour toute variation monétaire",
+      "Tables de configuration pour probabilités/barèmes datées",
+      "Archivage et export anonymisé pour reporting conformité"
+    ],
+    "observability_and_auditability": [
+      "Logs structurés corrélés par user_id et transaction_id",
+      "Traçabilité complète des flux valeur entrée/sortie",
+      "Tableaux de bord anomalies (gains, conversions, paiements)",
+      "Audit trails inviolables sur règles et modifications admin"
+    ],
+    "security_and_compliance_foundations": [
+      "RBAC strict et principe du moindre privilège",
+      "RLS sur données sensibles et séparation des contextes",
+      "Gestion consentement CMP prouvable et versionnée",
+      "Contrôles anti-abus, anti-fraude et limites de comportement",
+      "Privacy-by-design: minimisation données, rétention maîtrisée"
+    ]
+  },
+  "phase1_decisions": {
+    "what_we_intentionally_do_not_copy": [
+      "Économie à multiples monnaies redondantes",
+      "Couplage opaque entre achat et opportunité de gains convertibles",
+      "Preuve sociale non contextualisée",
+      "UX legacy et navigation éclatée",
+      "Complexité de règles non documentées"
+    ],
+    "what_we_upgrade_from_the_segment": [
+      "Boucle quotidienne conservée mais clarifiée",
+      "Compétition saisonnière conservée avec garde-fous d’équité",
+      "Boutique conservée avec règles de conversion explicites",
+      "Transparence renforcée (probabilités, barèmes, historique)",
+      "Architecture modernisée orientée auditabilité"
+    ],
+    "biggest_product_risks": [
+      "Perdre de l’engagement en simplifiant trop sans compenser par la qualité de loop",
+      "Confusion entre récompense ludique et valeur patrimoniale si séparation mal implémentée",
+      "Perception `moins excitant` sans levier de saisonnalité solide"
+    ],
+    "biggest_execution_risks": [
+      "Sous-estimer la complexité de ledger et réconciliation paiements",
+      "Dérive de périmètre sur conformité si non cadrée dès sprint 1",
+      "Retard UX si design system mobile-first non posé immédiatement"
+    ],
+    "recommended_next_step": "Lancer la PHASE 2 avec un Product Blueprint exécutable: parcours clés, contrat d’API domaine, modèle de données minimal, matrice conformité, et backlog priorisé 90 jours."
+  }
+}
