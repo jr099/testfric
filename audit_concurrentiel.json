@@ -1,0 +1,773 @@
+{
+  "value_structure": {
+    "resources_map": [
+      {
+        "resource": "Pièces",
+        "type": "FAIT",
+        "source": "Compteur en header (`PIECES`), résultats de jeux (`Vous avez obtenu ... Pièces`), prix boutique en pièces",
+        "how_obtained": "Gains de mini-jeux et probablement bonus/événements",
+        "purchase_possible": false,
+        "usage": "Monnaie interne pour acheter lots/codes/Graal/Graal+ en boutique",
+        "convertibility": "Convertible en récompenses boutique (cash Paypal/virement, Amazon, e-cartes, codes, packs)",
+        "patrimonial_value": "Indirecte: oui via conversion en récompenses monétaires ou assimilées",
+        "business_role": "Colonne vertébrale de l’économie interne; support du grind",
+        "retention_role": "Objectif d’accumulation continu",
+        "legal_risk": "medium-high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Parties gratuites (P. GRAT.)",
+        "type": "FAIT",
+        "source": "Compteur visible en session (`P. GRAT.`), mention `8 parties gratuites chaque jour`",
+        "how_obtained": "Dotation journalière et/ou bonus",
+        "purchase_possible": false,
+        "usage": "Entrée dans les jeux sans coût financier direct",
+        "convertibility": "Non directement convertible",
+        "patrimonial_value": "Non directe",
+        "business_role": "Acquisition/activation free-to-play",
+        "retention_role": "Moteur de retour quotidien",
+        "legal_risk": "medium",
+        "confidence": "high"
+      },
+      {
+        "resource": "Parties payantes (P. PAY.)",
+        "type": "FAIT",
+        "source": "Compteur `P. PAY.` + message `La partie vous coûtera 1 Partie Payante`",
+        "how_obtained": "Via ressources premium (ex. Graal/Graal+) et potentiellement achats/conversions",
+        "purchase_possible": true,
+        "usage": "Accès à des sessions de jeu payantes",
+        "convertibility": "Non directe, mais transforme l’accès au jeu",
+        "patrimonial_value": "Indirecte si elles augmentent l’accès aux gains convertibles",
+        "business_role": "Point d’entrée monétisé",
+        "retention_role": "Prolonge la session après épuisement des gratuites",
+        "legal_risk": "high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Parties bonus (P. BON.)",
+        "type": "FAIT",
+        "source": "Compteur `P. BON.` visible et avantages Graal/Graal+",
+        "how_obtained": "Via codes/ressources (Graal, Graal+), événements",
+        "purchase_possible": true,
+        "usage": "Stock additionnel de tentatives",
+        "convertibility": "Non directe",
+        "patrimonial_value": "Indirecte",
+        "business_role": "Accélérateur d’engagement",
+        "retention_role": "Rallonge les boucles de jeu",
+        "legal_risk": "medium-high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Graal",
+        "type": "FAIT",
+        "source": "Pages `+ de parties` et boutique pack; tarification Hipay/Paypal",
+        "how_obtained": "Achat via `hipay/paypal1.php` et gains (codes/retraits observés)",
+        "purchase_possible": true,
+        "usage": "Octroie parties gratuites/payantes/bonus + points VIP/collector/concours/clans",
+        "convertibility": "Convertible en ressources de jeu et progression",
+        "patrimonial_value": "Indirecte",
+        "business_role": "Monnaie premium intermédiaire",
+        "retention_role": "Boucle de progression multi-compteurs",
+        "legal_risk": "high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Graal+",
+        "type": "FAIT",
+        "source": "Pages `+ de parties` et boutique pack; table prix plus élevés que Graal",
+        "how_obtained": "Achat et gains/codes",
+        "purchase_possible": true,
+        "usage": "Version premium renforcée (plus de parties et plus de points concours/clans)",
+        "convertibility": "Convertible en opportunités de jeu/progression accrues",
+        "patrimonial_value": "Indirecte",
+        "business_role": "Upsell premium (ARPPU)",
+        "retention_role": "Incitation à rester compétitif",
+        "legal_risk": "high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Euro(s) wallet",
+        "type": "FAIT",
+        "source": "Compteur `Euro(s)` en header + page retrait + lots Paypal/virement",
+        "how_obtained": "Via retraits/gains convertis",
+        "purchase_possible": false,
+        "usage": "Indicateur de valeur monétaire interne/sortante",
+        "convertibility": "Oui (Paypal, virement, cartes, Amazon selon boutique)",
+        "patrimonial_value": "Directe",
+        "business_role": "Ancre de valeur réelle et preuve de monétisabilité",
+        "retention_role": "Objectif final de conversion",
+        "legal_risk": "high",
+        "confidence": "medium"
+      },
+      {
+        "resource": "Points VIP",
+        "type": "FAIT",
+        "source": "Avantages Graal/Graal+ (`1 Point Vip`, `2 Points Vip`)",
+        "how_obtained": "Via Graal/Graal+",
+        "purchase_possible": true,
+        "usage": "Progression/statut VIP",
+        "convertibility": "À VÉRIFIER",
+        "patrimonial_value": "À VÉRIFIER",
+        "business_role": "Segment premium et fidélisation",
+        "retention_role": "Progression long terme",
+        "legal_risk": "medium",
+        "confidence": "medium"
+      },
+      {
+        "resource": "Points Collector",
+        "type": "FAIT",
+        "source": "Avantages Graal/Graal+ et type de gain `Grille-Collector`",
+        "how_obtained": "Via Graal/Graal+ et activités jeu",
+        "purchase_possible": true,
+        "usage": "Progression collector/événements",
+        "convertibility": "À VÉRIFIER",
+        "patrimonial_value": "À VÉRIFIER",
+        "business_role": "Gamification méta",
+        "retention_role": "Collection/complétion",
+        "legal_risk": "medium",
+        "confidence": "medium"
+      },
+      {
+        "resource": "Points concours valideurs",
+        "type": "FAIT",
+        "source": "Page concours + home (top points) + règles (Graal=5, Graal+=15) + reset fin concours",
+        "how_obtained": "Validation Graal/Graal+, grilles, roue",
+        "purchase_possible": true,
+        "usage": "Classement concours et accès lots",
+        "convertibility": "Oui via lots (Paypal, cagnotte, Graal+)",
+        "patrimonial_value": "Oui selon lot gagné",
+        "business_role": "Compétition événementielle monétisable",
+        "retention_role": "FOMO temporelle + classement",
+        "legal_risk": "high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Points Coupe des Clans",
+        "type": "FAIT",
+        "source": "Avantages Graal/Graal+ (`5/15 Points Coupe des Clans`)",
+        "how_obtained": "Via Graal/Graal+",
+        "purchase_possible": true,
+        "usage": "Compétition par clans",
+        "convertibility": "À VÉRIFIER",
+        "patrimonial_value": "À VÉRIFIER",
+        "business_role": "Boucle sociale compétitive",
+        "retention_role": "Engagement communautaire",
+        "legal_risk": "medium-high",
+        "confidence": "medium"
+      },
+      {
+        "resource": "Codes partenaires (Toutou A, Wheels, Topcode B, etc.)",
+        "type": "FAIT",
+        "source": "Boutique codes + historique gagnants (type `Code`)",
+        "how_obtained": "Échange pièces en boutique; gains en jeu",
+        "purchase_possible": false,
+        "usage": "Valeur externe sur autres plateformes partenaires",
+        "convertibility": "Oui (pièces -> code externe)",
+        "patrimonial_value": "Oui potentielle",
+        "business_role": "Monétisation indirecte/affiliation et valeur perçue",
+        "retention_role": "Objectif de collection/utilité externe",
+        "legal_risk": "medium-high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Récompenses cash/carte (Paypal, virement, Amazon, e-carte)",
+        "type": "FAIT",
+        "source": "Boutique argent avec prix en pièces et quantités disponibles",
+        "how_obtained": "Conversion pièces en boutique",
+        "purchase_possible": false,
+        "usage": "Sortie de valeur réelle",
+        "convertibility": "Oui, sortie finale de l’économie interne",
+        "patrimonial_value": "Oui directe",
+        "business_role": "Promesse centrale de valeur et preuve sociale",
+        "retention_role": "But ultime du grind",
+        "legal_risk": "high",
+        "confidence": "high"
+      },
+      {
+        "resource": "Session utilisateur (état connecté)",
+        "type": "HYPOTHÈSE",
+        "source": "Pages internes personnalisées + constats fournis (`PHPSESSID`)",
+        "how_obtained": "Authentification compte standard",
+        "purchase_possible": false,
+        "usage": "Persistance compteurs/wallet/progression",
+        "convertibility": "N/A",
+        "patrimonial_value": "N/A",
+        "business_role": "Infrastructure de continuité produit",
+        "retention_role": "Récupération de progression",
+        "legal_risk": "medium",
+        "confidence": "medium"
+      },
+      {
+        "resource": "StarPass comme rail de paiement",
+        "type": "À VÉRIFIER",
+        "source": "Mention utilisateur (constats préalables), non visible explicitement dans fichiers fournis",
+        "how_obtained": "À VÉRIFIER",
+        "purchase_possible": true,
+        "usage": "Achat ressources premium",
+        "convertibility": "À VÉRIFIER",
+        "patrimonial_value": "Indirecte probable",
+        "business_role": "Diversification rails paiements",
+        "retention_role": "Réduction friction d’achat",
+        "legal_risk": "medium-high",
+        "confidence": "low"
+      }
+    ],
+    "value_flows": [
+      {
+        "flow_name": "Free loop",
+        "type": "FAIT",
+        "steps": [
+          "Parties gratuites quotidiennes",
+          "Jeu (grattage/mémo/choix/etc.)",
+          "Gains en pièces/Graal",
+          "Accumulation wallet",
+          "Échange boutique"
+        ],
+        "business_meaning": "Funnel d’acquisition puis conversion différée",
+        "risk_notes": "La gratuité existe mais sa suffisance réelle pour atteindre les lots reste à vérifier"
+      },
+      {
+        "flow_name": "Pay-to-accelerate loop",
+        "type": "FAIT",
+        "steps": [
+          "Achat Graal/Graal+ (Hipay/Paypal)",
+          "Crédit de parties payantes/bonus + points",
+          "Plus d’opportunités de gain",
+          "Progression concours/classements",
+          "Conversion potentielle en gains"
+        ],
+        "business_meaning": "Monétisation directe par augmentation du volume d’opportunités",
+        "risk_notes": "Zone sensible si l’achat influence fortement probabilité de sortie de valeur"
+      },
+      {
+        "flow_name": "Competition loop",
+        "type": "FAIT",
+        "steps": [
+          "Participation concours valideurs",
+          "Accumulation points concours",
+          "Classement Top 20",
+          "Distribution lots (Paypal/cagnotte/Graal+)",
+          "Réinvestissement en jeu"
+        ],
+        "business_meaning": "Boucle événementielle de réactivation et de dépense",
+        "risk_notes": "Risque de perception loterie si hasard + participation financière + espérance de gain"
+      },
+      {
+        "flow_name": "Preuve sociale vers conversion",
+        "type": "FAIT",
+        "steps": [
+          "Affichage gagnants en temps quasi réel",
+          "Affichage cadeaux distribués (307542)",
+          "Affichage stocks boutique et lots",
+          "Renforcement crédibilité perçue",
+          "Incitation à jouer/acheter"
+        ],
+        "business_meaning": "Réduction du doute utilisateur, hausse conversion",
+        "risk_notes": "Risque DGCCRF si présentation incomplète sur conditions/probabilités"
+      },
+      {
+        "flow_name": "Affiliation/partenaires",
+        "type": "FAIT",
+        "steps": [
+          "Visite page bonus/partenaires",
+          "Redirection liens affiliés/parrainage",
+          "Gain externe probable pour l’éditeur",
+          "Réinjection en lots/marketing",
+          "Soutien de l’économie interne"
+        ],
+        "business_meaning": "Revenu secondaire non transactionnel direct joueur",
+        "risk_notes": "Transparence commerciale et tracking à vérifier"
+      }
+    ],
+    "monetization_analysis": {
+      "primary_model": "Free-to-play à gains avec conversion premium (Graal/Graal+) pour augmenter le volume d’opportunités de gain convertibles",
+      "secondary_models": [
+        "Affiliation/partenariats (footer + page bonus)",
+        "Économie interne multi-wallet (pièces/parties/points)",
+        "Événementiel compétitif (concours valideurs)"
+      ],
+      "monetized_entry_points": [
+        "Achat Graal/Graal+ via Hipay/Paypal",
+        "Possibles rails supplémentaires (StarPass à vérifier)",
+        "Consommation de parties payantes"
+      ],
+      "boosters_and_accelerators": [
+        "Graal+ (rendement supérieur en parties/points)",
+        "Parties bonus/payantes",
+        "Points concours liés à validation Graal/Graal+"
+      ],
+      "purchase_loops": [
+        "Achat premium -> plus de runs -> plus de gains potentiels -> progression -> réachat",
+        "Achat premium -> meilleure compétitivité concours -> lots -> réengagement"
+      ],
+      "retention_loops": [
+        "Dotation quotidienne -> session courte -> récompense variable -> retour",
+        "Classement global + statuts (Écuyer/Chevalier) -> objectif long terme",
+        "Concours datés -> urgence/FOMO"
+      ],
+      "money_influence_points": [
+        "Accès accru aux parties payantes/bonus",
+        "Accélération des points concours/clans via Graal+",
+        "Vitesse de progression vers récompenses convertibles"
+      ]
+    }
+  },
+  "legal_structure": {
+    "qualification_factors": [
+      {
+        "factor": "Offre au public",
+        "type": "FAIT",
+        "observation": "Site web ouvert avec création de compte standard et pages publiques/internes",
+        "impact": "Base d’applicabilité droit consommation/publicité"
+      },
+      {
+        "factor": "Espérance de gain",
+        "type": "FAIT",
+        "observation": "Lots monétaires et assimilés affichés (Paypal, virement, Amazon, cartes, codes)",
+        "impact": "Renforce sensibilité qualification jeu d’argent/loterie"
+      },
+      {
+        "factor": "Hasard",
+        "type": "FAIT",
+        "observation": "Mini-jeux de grattage/jackpot/roue et récompense variable observés",
+        "impact": "Élément central de risque ANJ si couplé à mise financière"
+      },
+      {
+        "factor": "Participation financière",
+        "type": "FAIT",
+        "observation": "Achat Graal/Graal+ via rails paiement",
+        "impact": "Hausse du risque réglementaire si lien direct avec opportunité de gain"
+      },
+      {
+        "factor": "Gratuité réelle",
+        "type": "FAIT",
+        "observation": "Parties gratuites quotidiennes affichées",
+        "impact": "Atténuation partielle du risque, mais effectivité économique à vérifier"
+      },
+      {
+        "factor": "Influence de l’achat",
+        "type": "FAIT",
+        "observation": "Graal/Graal+ augmentent parties et points concours/clans",
+        "impact": "Risque d’inéquité perçue et pay-to-advantage"
+      },
+      {
+        "factor": "Convertibilité en valeur patrimoniale",
+        "type": "FAIT",
+        "observation": "Pièces convertibles en cash/cartes/codes",
+        "impact": "Point de sensibilité juridique majeur"
+      },
+      {
+        "factor": "Transparence probabilités",
+        "type": "À VÉRIFIER",
+        "observation": "Aucune table de probabilités observée dans les extraits fournis",
+        "impact": "Risque DGCCRF/consommateur si information insuffisante"
+      },
+      {
+        "factor": "Consentement & tracking",
+        "type": "FAIT",
+        "observation": "Scripts consentframework + appel `js.sddan.com/GS.d` avec paramètres GDPR vus en logs",
+        "impact": "Risque CNIL si consentement effectif, preuve et granularité insuffisants"
+      }
+    ],
+    "risk_matrix": [
+      {
+        "mechanism": "Achat Graal/Graal+ -> plus de parties et points",
+        "facts": "Tarifs paiement observés + gains de ressources premium",
+        "possible_qualification": "Free-to-play monétisé ou mécanisme proche jeu d’argent selon intensité de lien gain/achat",
+        "risk_level": "high",
+        "why": "L’argent modifie le volume d’opportunités de gain convertibles",
+        "to_verify": "Impact exact sur probabilités et ROI joueur"
+      },
+      {
+        "mechanism": "Conversion pièces en cash/cartes/codes",
+        "facts": "Boutique argent/codes avec prix et quantités",
+        "possible_qualification": "Sortie patrimoniale réelle",
+        "risk_level": "high",
+        "why": "Passerelle monnaie interne -> valeur externe tangible",
+        "to_verify": "Conditions de retrait, plafonds, délais, refus"
+      },
+      {
+        "mechanism": "Parties gratuites quotidiennes",
+        "facts": "8 gratuites/jour affichées",
+        "possible_qualification": "Mécanisme freemium classique",
+        "risk_level": "medium",
+        "why": "Atténue mais n’annule pas le risque si progression gratuite trop théorique",
+        "to_verify": "Capacité réelle d’atteindre lots sans payer"
+      },
+      {
+        "mechanism": "Concours valideurs à lots monétaires",
+        "facts": "Top 20 avec lots Paypal/cagnotte",
+        "possible_qualification": "Concours promotionnel ou mécanique à risque loterie",
+        "risk_level": "high",
+        "why": "Compétition + lots + influence ressource premium",
+        "to_verify": "Règlement complet et base juridique du concours"
+      },
+      {
+        "mechanism": "Affichage gagnants et volume cadeaux",
+        "facts": "Historique détaillé + compteur global cadeaux",
+        "possible_qualification": "Preuve sociale marketing",
+        "risk_level": "medium-high",
+        "why": "Peut devenir trompeur si contexte/probabilités/coûts non clarifiés",
+        "to_verify": "Méthodologie de calcul et représentativité"
+      },
+      {
+        "mechanism": "Tracking consent",
+        "facts": "Paramètres gdpr, consent string, appel tiers dans logs",
+        "possible_qualification": "Conformité cookies/mesure audience",
+        "risk_level": "medium",
+        "why": "Risque CNIL sur preuve de consentement et finalités",
+        "to_verify": "CMP configuration, journal de consentements, base légale"
+      },
+      {
+        "mechanism": "Monnaies multiples et lisibilité économique",
+        "facts": "Pièces, parties, Graal, points VIP/collector/concours/clans, euros",
+        "possible_qualification": "Gamification avancée; possible opacité commerciale",
+        "risk_level": "medium-high",
+        "why": "Complexité pouvant brouiller coût réel et probabilité de conversion",
+        "to_verify": "Documentation claire des équivalences et règles"
+      }
+    ],
+    "regulatory_risks": {
+      "anj_gambling": "Risque medium-high à high selon preuve du triptyque hasard + mise + espérance de gain monétisable.",
+      "dgccrf_consumer": "Risque medium-high sur transparence des probabilités, de la gratuité réelle et de la présentation des gains.",
+      "cnil_privacy": "Risque medium (scripts tiers et consent string observés; conformité opérationnelle à prouver).",
+      "consumer_transparency": "Risque high si conditions de conversion/retrait et chances de gain ne sont pas explicitement documentées.",
+      "reputational": "Risque high en cas de perception pay-to-win/pay-to-gain ou de délais/refus de retraits mal compris."
+    },
+    "top_5_legal_sensitivities": [
+      "Lien achat premium -> augmentation des opportunités de gain convertibles",
+      "Sortie de valeur patrimoniale (Paypal/virement/cartes/codes)",
+      "Absence visible de probabilités détaillées dans les extraits",
+      "Complexité multi-wallet pouvant nuire à la transparence économique",
+      "Usage de preuve sociale (gagnants, volumes) sans contexte probabiliste complet"
+    ],
+    "missing_pieces_for_refined_qualification": [
+      "CGU/règlement intégral et version applicable",
+      "Probabilités officielles par jeu et par mode de partie",
+      "Règles exactes de conversion/retrait (seuils, KYC, délais, refus)",
+      "Journal de consentement CMP et mapping finalités/cookies",
+      "Données réelles de distribution des gains (auditables)"
+    ],
+    "global_risk_level": "medium-high"
+  },
+  "technical_structure": {
+    "functional_blocks": [
+      {
+        "block": "Authentification / session",
+        "pages": ["index.html (état connecté)", "deconnexion.html", "compte.html"],
+        "scripts": ["javascript/masque.js"],
+        "endpoints": ["Routes HTML/PHP internes (session implicite)", "PHPSESSID (constat fourni)"] ,
+        "data_handled": ["pseudo", "état connecté", "compteurs wallet", "messagerie non lue"],
+        "storage_probable": ["users", "sessions"],
+        "confidence": "medium"
+      },
+      {
+        "block": "Wallet / soldes",
+        "pages": ["header global sur pages internes", "retrait.html", "boutique-*.html"],
+        "scripts": [],
+        "endpoints": ["Soumissions formulaire same-page"],
+        "data_handled": ["PIECES", "P. GRAT.", "P. PAY.", "P. BON.", "Euro(s)"],
+        "storage_probable": ["wallets", "balance_history"],
+        "confidence": "high"
+      },
+      {
+        "block": "Jeux",
+        "pages": ["jeux_gratte.html", "jeux_memo.html", "jeux_choix.html", "jeux_jackpote.html", "jeux_fakir.html", "jeux_grille.html"],
+        "scripts": ["js/ticket_7.js", "ticket_11.js (logs)", "js/wScratchPad.min.js", "js/slides.min.jQuery.js", "jquery-latest.min.js"],
+        "endpoints": ["jeux_gratte.html?id=*", "jeux_memo.html?id=*", "jeux_fakir.html?id=*", "jeux_jackpote.html?id=*"],
+        "data_handled": ["nombre de parties restantes", "points gagnés", "lot image", "statut run"],
+        "storage_probable": ["game_runs", "game_results", "wallet_transactions"],
+        "confidence": "high"
+      },
+      {
+        "block": "Boutique",
+        "pages": ["boutique-Argent.html", "boutique-Codes.html", "boutique-Pack.html", "parties.html"],
+        "scripts": [],
+        "endpoints": ["Formulaires POST internes", "hipay/paypal1.php", "hipay/paiement1.php (commenté)"],
+        "data_handled": ["catalogue", "stock", "prix en pièces", "demandes conversion"],
+        "storage_probable": ["shop_items", "inventory", "orders"],
+        "confidence": "high"
+      },
+      {
+        "block": "Paiements",
+        "pages": ["parties.html"],
+        "scripts": [],
+        "endpoints": ["hipay/paypal1.php", "hipay/paiement1.php", "StarPass (à vérifier)"],
+        "data_handled": ["id offre", "montant pack", "canal paiement"],
+        "storage_probable": ["payments", "payment_callbacks", "premium_credits"],
+        "confidence": "medium"
+      },
+      {
+        "block": "Classements",
+        "pages": ["classement.html?page=*", "index.html"],
+        "scripts": [],
+        "endpoints": ["classement.html?page=*"],
+        "data_handled": ["position", "pseudo", "rang", "points", "dernière activité"],
+        "storage_probable": ["leaderboard_entries", "user_scores"],
+        "confidence": "high"
+      },
+      {
+        "block": "Concours",
+        "pages": ["concoursValideurs.html", "classement_conc.html", "index.html"],
+        "scripts": [],
+        "endpoints": ["concoursValideurs.html", "classement_conc.html"],
+        "data_handled": ["périodes", "points concours", "lots", "top 20"],
+        "storage_probable": ["contests", "contest_scores", "contest_rewards"],
+        "confidence": "high"
+      },
+      {
+        "block": "Gains / retraits",
+        "pages": ["liste_gagnants.html", "retrait.html", "boutique-Argent.html"],
+        "scripts": [],
+        "endpoints": ["liste_gagnants.html"],
+        "data_handled": ["cadeau", "type gain", "date", "pseudo", "retrait"],
+        "storage_probable": ["rewards", "withdrawals", "payouts"],
+        "confidence": "high"
+      },
+      {
+        "block": "Messagerie",
+        "pages": ["messagerie.html"],
+        "scripts": [],
+        "endpoints": ["messagerie.html"],
+        "data_handled": ["messages non lus"],
+        "storage_probable": ["messages"],
+        "confidence": "medium"
+      },
+      {
+        "block": "Consentement / tracking",
+        "pages": ["pages globales"],
+        "scripts": ["cache.consentframework.com/.../stub", "choices.consentframework.com/.../cmp"],
+        "endpoints": ["https://js.sddan.com/GS.d?..."],
+        "data_handled": ["gdpr", "gdpr_consent", "sd_consent", "referrer", "url"],
+        "storage_probable": ["consent_logs", "analytics_events"],
+        "confidence": "high"
+      }
+    ],
+    "route_maps": {
+      "front_routes": [
+        "./index.html",
+        "./boutique.html",
+        "./parties.html",
+        "./bonus.html",
+        "./liste_gagnants.html",
+        "./classement.html?page=1",
+        "./concoursValideurs.html",
+        "./contact.html",
+        "./nouveautes.html"
+      ],
+      "payment_routes": [
+        "hipay/paypal1.php",
+        "hipay/paiement1.php",
+        "StarPass (à vérifier)"
+      ],
+      "game_routes": [
+        "./jeux_gratte.html?id=*",
+        "./jeux_memo.html?id=*",
+        "./jeux_choix.html",
+        "./jeux_fakir.html?id=*",
+        "./jeux_jackpote.html?id=*",
+        "./jeux_grille.html",
+        "./jeux_grille_col.html",
+        "./jeux_loto.html",
+        "./jeux_boom.php"
+      ],
+      "account_routes": [
+        "./compte.html",
+        "./messagerie.html",
+        "./vip.html",
+        "./retrait.html",
+        "./deconnexion.html"
+      ],
+      "ajax_or_implicit_routes": [
+        "Réponses dynamiques observées dans `ticket_11.js` (`nbre_parties`, `pts`, `image_lot`)",
+        "Formulaires `action=''` traités serveur sur même endpoint",
+        "bonus/affiche.php?id=*&titre=*"
+      ],
+      "third_party_scripts": [
+        "https://cache.consentframework.com/js/pa/33325/c/ymByS/stub",
+        "https://choices.consentframework.com/js/pa/33325/c/ymByS/cmp",
+        "https://js.sddan.com/GS.d?...",
+        "https://code.jquery.com/jquery-latest.min.js"
+      ]
+    },
+    "session_wallet_inventory_model": {
+      "session_model": "FAIT: état connecté rendu server-side par page (pseudo + compteurs). HYPOTHÈSE: cookie PHPSESSID + sessions table.",
+      "wallet_model": "FAIT: au moins 5 soldes synchronisés (pièces, P.GRAT, P.PAY, P.BON, euros).",
+      "inventory_model": "FAIT: boutique avec quantités disponibles par item + possession implicite Graal/Graal+ et codes.",
+      "winnings_model": "FAIT: historique gagnants structuré (pseudo, lot, date, type).",
+      "leaderboard_model": "FAIT: classement général paginé + concours top 20; HYPOTHÈSE: recalcul périodique/transactionnel.",
+      "payments_model": "FAIT: formulaires offre-id vers Hipay/Paypal; À VÉRIFIER: callback serveur, antifraude, reconciliation."
+    },
+    "probable_data_model": {
+      "entities": [
+        "users",
+        "sessions",
+        "wallets",
+        "wallet_transactions",
+        "game_runs",
+        "game_results",
+        "rewards",
+        "withdrawals",
+        "leaderboard_entries",
+        "contest_entries",
+        "shop_items",
+        "orders",
+        "payments",
+        "payment_events",
+        "messages",
+        "consent_logs",
+        "affiliate_clicks"
+      ],
+      "relationships": [
+        "users 1-n sessions",
+        "users 1-1 wallets",
+        "users 1-n game_runs",
+        "game_runs 1-1 game_results",
+        "users 1-n rewards",
+        "users 1-n withdrawals",
+        "users 1-n leaderboard_entries",
+        "users 1-n contest_entries",
+        "shop_items 1-n orders",
+        "orders 1-n payment_events",
+        "users 1-n messages",
+        "users 1-n consent_logs"
+      ]
+    },
+    "technical_debt_analysis": {
+      "legacy_signals": [
+        "XHTML 1.0 Transitional",
+        "jQuery legacy + plugins anciens",
+        "mix de scripts hétérogènes et duplication de includes",
+        "erreurs console (`slides is not a function`, erreurs wScratchPad)"
+      ],
+      "maintenance_risks": [
+        "Couplage fort front/back via rendu serveur",
+        "Difficulté de test automatisé moderne",
+        "Risque régressions sur mini-jeux spécifiques"
+      ],
+      "ux_fragility_signals": [
+        "Erreurs runtime JS en session réelle",
+        "Composants visuels/scripts dépendants d’anciens plugins",
+        "Lisibilité économique complexe (multi-wallet)"
+      ],
+      "monolith_signals": [
+        "Routes métier et UI dans mêmes pages",
+        "Formulaires same-endpoint",
+        "Absence d’API REST explicitement structurée dans extraits"
+      ],
+      "modern_competitor_opportunities": [
+        "Architecture API-first + traçabilité complète des flux de valeur",
+        "Transparence probabilités et conversions en temps réel",
+        "UX mobile-first simplifiant monnaies et progression",
+        "Conformité-by-design (consentement, anti-addiction, audit de gains)"
+      ]
+    }
+  },
+  "behavioral_design": {
+    "dark_patterns_or_psychological_levers": [
+      {
+        "lever": "Récompense variable",
+        "type": "FAIT",
+        "observation": "Résultats de jeux variables (pièces, lots, Graal/Graal+)",
+        "user_effect": "Renforcement intermittent, répétition des sessions",
+        "business_effect": "Augmente temps de jeu et probabilité de conversion",
+        "risk": "Risque addiction/comportement compulsif"
+      },
+      {
+        "lever": "FOMO événementielle",
+        "type": "FAIT",
+        "observation": "Concours valideurs daté avec top 20 et lots",
+        "user_effect": "Pression temporelle à jouer davantage",
+        "business_effect": "Pics d’activité et de dépenses",
+        "risk": "Risque réputationnel si perçu comme pression excessive"
+      },
+      {
+        "lever": "Rareté affichée",
+        "type": "FAIT",
+        "observation": "Quantités disponibles par lot en boutique",
+        "user_effect": "Accélère décisions d’échange/achat",
+        "business_effect": "Améliore conversion court terme",
+        "risk": "Risque tromperie si stocks non fidèles"
+      },
+      {
+        "lever": "Preuve sociale",
+        "type": "FAIT",
+        "observation": "Historique gagnants + volume cadeaux distribués",
+        "user_effect": "Renforce confiance et désir d’imitation",
+        "business_effect": "Hausse acquisition/conversion",
+        "risk": "Risque DGCCRF si contextualisation insuffisante"
+      },
+      {
+        "lever": "Pression classement",
+        "type": "FAIT",
+        "observation": "Classement général volumineux + statuts (Écuyer/Chevalier)",
+        "user_effect": "Compétition et engagement long terme",
+        "business_effect": "Rétention durable",
+        "risk": "Risque d’inéquité perçue si progression très corrélée au paiement"
+      },
+      {
+        "lever": "Complexité multi-wallet",
+        "type": "FAIT",
+        "observation": "Pièces + 3 types de parties + Graal/Graal+ + points multiples + euros",
+        "user_effect": "Difficulté à estimer coût/valeur réelle",
+        "business_effect": "Peut augmenter dépense par opacité cognitive",
+        "risk": "Risque juridique de transparence consommation"
+      },
+      {
+        "lever": "Pay-to-accelerate",
+        "type": "FAIT",
+        "observation": "Graal/Graal+ achetables augmentent ressources et points concours",
+        "user_effect": "Incite achat pour rester compétitif",
+        "business_effect": "Moteur de revenu direct",
+        "risk": "Risque ANJ/DGCCRF selon qualification et information fournie"
+      },
+      {
+        "lever": "Incitation au rejouer",
+        "type": "FAIT",
+        "observation": "Pop-up post-résultat avec `Rejouer` immédiat",
+        "user_effect": "Boucle session courte répétée",
+        "business_effect": "Augmente consommation de parties",
+        "risk": "Risque comportemental (intensification)"
+      },
+      {
+        "lever": "Friction au retrait",
+        "type": "À VÉRIFIER",
+        "observation": "Présence route retrait et historique, mais règles détaillées non visibles",
+        "user_effect": "Peut retarder sortie de valeur",
+        "business_effect": "Réduit cash-out, augmente rétention forcée",
+        "risk": "Risque réputationnel/juridique si contraintes opaques"
+      }
+    ]
+  },
+  "strategic_synthesis": {
+    "true_economic_engine": "Monétisation premium (Graal/Graal+) couplée à une économie interne convertible en valeur externe, soutenue par preuve sociale des gains et concours.",
+    "true_retention_engine": "Boucle hybride: dotation quotidienne + récompense variable + pression classement/concours + objectifs de conversion boutique.",
+    "true_moat": "Accumulation historique de communauté, catalogue de récompenses opérationnel, et crédibilité perçue via historique public des gains.",
+    "main_fragility": "Zone grise juridique et dette technique legacy: transparence probabilités/convertibilité vs architecture ancienne fragile.",
+    "how_to_beat_them_modernly": [
+      "Construire une économie plus simple (moins de monnaies) avec équivalences explicites.",
+      "Publier probabilités, règles de conversion et délais de retrait de manière auditable.",
+      "Adopter UX mobile-first et fiabilité front sans erreurs runtime.",
+      "Mettre conformité au centre (CNIL/consentement, anti-addiction, transparence gains).",
+      "Différencier par confiance produit plutôt que par opacité gamifiée."
+    ]
+  },
+  "confidence_summary": {
+    "high_confidence": [
+      "Existence des ressources clés (pièces, parties, Graal/Graal+, points concours, boutique)",
+      "Présence de paiements Hipay/Paypal et conversion en récompenses à valeur externe",
+      "Stack front legacy jQuery/XHTML + signaux d’erreurs JS",
+      "Boucles de compétition (classement, concours) et preuve sociale gagnants"
+    ],
+    "medium_confidence": [
+      "Modèle de session PHP (PHPSESSID mentionné mais non extrait brut ici)",
+      "Structure relationnelle des tables métier internes",
+      "Poids relatif exact affiliation vs achats directs"
+    ],
+    "low_confidence": [
+      "Présence opérationnelle StarPass dans la version actuelle",
+      "Probabilités exactes par jeu et impact marginal précis de l’achat",
+      "ARPU/conversion réels sans données transactionnelles"
+    ]
+  }
+}
