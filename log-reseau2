@@ -1,0 +1,184 @@
+curl ^"https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/jeux_gratte.html?id=3^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: document^" ^
+  -H ^"sec-fetch-mode: navigate^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/jQuery.min.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/jQuery.easing.1.3.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/slides.min.jQuery.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/masque.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/decompte.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/decomptea.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/logo.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/123456.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/slider/Concours^%^20valideurs__^%^20MARS_^%^202026_^%^20Zooparc^%^20beauval^%^20copie.jpg^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://choices.consentframework.com/js/pa/33325/c/ymByS/cmp^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/button5.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/button6.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/divers/titre_partie.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/logo_pay.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/paiements/star-1.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/paiements/star-2.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/divers/ret_acc.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new_box1-3.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/fonts/beer-webfont.woff^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/starpassGRAAL.php^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: iframe^" ^
+  -H ^"sec-fetch-mode: navigate^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/divers/topbg.jpg^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new-header.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new-slider.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new-form.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico1.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico2.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico3.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico4.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico_flash.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/ico_euro.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/main-details.jpg^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new-details.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new_box1-1.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/images/new_box1-2.png^" -H ^"Referer;^" &
+curl ^"https://www.arthurokdo.fr/starpassGRAALP.php^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/parties.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: iframe^" ^
+  -H ^"sec-fetch-mode: navigate^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/new-footer.png^" -H ^"Referer;^" &
+curl ^"https://choices.consentframework.com/js/pa/33325/c/ymByS/cmp?_=1772913494684^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://script.starpass.fr/script.php?idd=417742^&verif_en_php=1^&datas=^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^"

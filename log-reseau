@@ -1,0 +1,897 @@
+curl ^"https://www.arthurokdo.fr/index.html^" ^
+  -H ^"accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"priority: u=0, i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/concoursValideurs.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: document^" ^
+  -H ^"sec-fetch-mode: navigate^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"sec-fetch-user: ?1^" ^
+  -H ^"upgrade-insecure-requests: 1^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/jQuery.min.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/jQuery.easing.1.3.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/js/slides.min.jQuery.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/masque.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/decompte.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/javascript/decomptea.js^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/logo.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/123456.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/slider/Concours^%^20valideurs__^%^20MARS_^%^202026_^%^20Zooparc^%^20beauval^%^20copie.jpg^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://choices.consentframework.com/js/pa/33325/c/ymByS/cmp^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/button5.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/button6.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j1_conc.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 12 Aug 2016 13:53:08 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j2.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 05 Jul 2016 08:58:10 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j18.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 02 Jul 2020 12:19:28 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j12.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 24 Feb 2017 17:53:26 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j10.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 11 Mar 2020 10:32:54 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j5.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 05 Jul 2016 16:57:58 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j6.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 05 Jul 2016 16:58:24 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j16.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Sat, 23 Dec 2017 16:03:26 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/vignette_code_gagnant.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 29 Sep 2022 08:19:41 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/text1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:13:30 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/button3.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:12:14 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/evenement-title.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:25:14 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/SliderConc/evenement-banner_^%^20MARS_2026^%^20copie.jpg^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Sat, 28 Feb 2026 20:45:33 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/img/conv_1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 21 Dec 2018 15:02:14 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/coin.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:37:08 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/coin1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 06 Jul 2016 10:25:48 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j3.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 05 Jul 2016 13:13:22 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j19.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Mon, 28 Jan 2019 09:53:56 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j4.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 05 Jul 2016 14:30:44 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j11.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 03 Nov 2016 17:11:30 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j15_conc.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 25 Jun 2020 15:37:58 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j7.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 06 Jul 2016 10:38:10 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j8.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 07 Jul 2016 10:37:04 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j9.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 08 Jul 2016 10:40:26 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j13.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 30 Mar 2017 12:41:56 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j14.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 01 Jun 2017 17:23:14 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/j17.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 13 Feb 2018 08:33:48 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/button4_1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Mon, 04 Jul 2016 14:49:52 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/vignette/vignt_defis.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 09 Sep 2016 12:25:58 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_banner1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:28:28 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/button4_2.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Mon, 04 Jul 2016 14:50:36 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/divers/title_livre.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 15 Jun 2016 10:19:06 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/divers/topbg.jpg^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new-header.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new-slider.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new-form.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico1.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico2.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico3.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico4.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico_flash.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/ico_euro.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/main-details.jpg^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new-details.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box1.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 09 Aug 2017 10:52:40 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box2.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:08:02 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box91.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Thu, 29 Sep 2022 09:24:39 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box3.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:32:08 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/evenement-box.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:25:34 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/jackpot.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 06 Jul 2016 10:17:56 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box4.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Wed, 09 Aug 2017 11:01:58 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box5.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 09:26:24 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box6.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Tue, 13 Feb 2018 08:50:16 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box7.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Mon, 04 Jul 2016 14:47:02 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/images/accueil_box8.png^" ^
+  -H ^"accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -b ^"euconsent-v2=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ.yEEWZvg.4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA; PHPSESSID=9a5c95dc289eb76d33711de71c35e4b1^" ^
+  -H ^"if-modified-since: Fri, 20 May 2016 10:07:02 GMT^" ^
+  -H ^"priority: i^" ^
+  -H ^"referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: image^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://www.arthurokdo.fr/fonts/beer-webfont.woff^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://www.arthurokdo.fr/images/new-footer.png^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/css/style.css^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://choices.consentframework.com/js/pa/33325/c/ymByS/cmp?_=1772913148576^" ^
+  -H ^"accept: */*^" ^
+  -H ^"accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -H ^"referer: https://www.arthurokdo.fr/^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"sec-fetch-dest: script^" ^
+  -H ^"sec-fetch-mode: no-cors^" ^
+  -H ^"sec-fetch-site: cross-site^" ^
+  -H ^"sec-fetch-storage-access: active^" ^
+  -H ^"user-agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" &
+curl ^"https://js.sddan.com/GS.d?pa=33325^&c=ymByS^&u=https^%^3A^%^2F^%^2Fwww.arthurokdo.fr^%^2Findex.html^&r=https^%^3A^%^2F^%^2Fwww.arthurokdo.fr^%^2FconcoursValideurs.html^&rand=1772913150840^&gdpr=1^&gdpr_consent=CQgipwAQgipwABcAKBFRCUFoAP_gAEPgAAqIJNQK4AFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4gEGAQgAnQBSAC4AGkAPQAiYBHQDCAGgANEAa8A2gCOwEegJ_AUuAvMBi4DGQGSAOTAe0BAcCMIEZAIzASHAk0CTUBQABYAFQAOAAgABUADKAGgAagBMAD8AIQAiwBHQDRAGvANoAj0BeYDJAHJgPaAAA.IJNQLYAFAAWABUADIAHAAQAAqABaADKAGgAagBFgCYAJoAWwAwgB4AD9AIMAhABOgCkAFwANIAegBEwCLAEdAMIAaAA0QBrwDaAI7AR6An8BS4C8wGLgMZAZIA5MB7QEBwIwgRkAjMBIcCTQ^&sd_consent=4U6gCABZAiSChEFOoArgGgAIAAVABkAGgAQgAmgBQAFMAKwAsgBcAG8AOQBAgCEAJ4AUYApgCoAFcAVwAQAEAA-gAAAAAAA^&cookieless_ignore=0^&fb_consent=0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/index.html^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://api.consentframework.com/api/v1/public/user-action^" ^
+  -H ^"Accept: */*^" ^
+  -H ^"Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7^" ^
+  -H ^"Connection: keep-alive^" ^
+  -H ^"Content-Type: text/plain;charset=UTF-8^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"Sec-Fetch-Dest: empty^" ^
+  -H ^"Sec-Fetch-Mode: cors^" ^
+  -H ^"Sec-Fetch-Site: cross-site^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  --data-raw ^"^{^\^"type^\^":^\^"load^\^",^\^"action^\^":^\^"consent_ok^\^",^\^"partner_id^\^":33325,^\^"config_id^\^":^\^"ymByS^\^",^\^"version^\^":^\^"3^\^",^\^"device^\^":^\^"android^\^",^\^"environment^\^":^\^"web^\^",^\^"values^\^":^[^{^\^"name^\^":^\^"conf_id^\^",^\^"value^\^":^\^"ymByS^\^"^}^]^}^" &
+curl ^"https://fonts.gstatic.com/s/mulish/v17/1Ptvg83HX_SGhgqk0gotYKNnBcif.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/mulish/v17/1Ptvg83HX_SGhgqk2wotYKNnBcif.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/mulish/v17/1Ptvg83HX_SGhgqk0AotYKNnBcif.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/mulish/v17/1Ptvg83HX_SGhgqk0QotYKNnBcif.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/mulish/v17/1Ptvg83HX_SGhgqk3wotYKNnBQ.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2JL7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa0ZL7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2ZL7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1pL7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7W0Q5n-wU.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^" &
+curl ^"https://fonts.gstatic.com/s/inter/v19/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2^" ^
+  -H ^"Origin: https://www.arthurokdo.fr^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Android^\^"^" ^
+  -H ^"Referer: https://www.arthurokdo.fr/^" ^
+  -H ^"User-Agent: Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Mobile Safari/537.36^" ^
+  -H ^"sec-ch-ua: ^\^"Not:A-Brand^\^";v=^\^"99^\^", ^\^"Google Chrome^\^";v=^\^"145^\^", ^\^"Chromium^\^";v=^\^"145^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?1^"
