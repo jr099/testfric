@@ -1,3 +1,9 @@
-insert into public.users (id, email) values
-  ('00000000-0000-0000-0000-000000000001', 'demo@pulseplay.local')
+insert into public.games (slug, title, status) values
+  ('pulse-tap', 'Pulse Tap', 'active'),
+  ('memory-grid', 'Memory Grid', 'active')
+on conflict (slug) do nothing;
+
+insert into public.reward_catalog (title, reward_type, credit_cost, stock, status) values
+  ('Avatar Neon Pack', 'digital', 150, null, 'active'),
+  ('Gift Card 10', 'external', 1000, 100, 'active')
 on conflict do nothing;

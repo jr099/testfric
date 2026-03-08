@@ -1,31 +1,30 @@
-create table if not exists public.rule_versions (
-  id uuid primary key default gen_random_uuid(),
-  domain text not null,
-  version text not null,
-  payload jsonb not null,
-  effective_from timestamptz not null,
-  effective_to timestamptz,
-  created_at timestamptz not null default now(),
-  unique(domain, version)
-);
+create or replace function public.get_wallet_statement(p_user_id uuid)
+returns table(currency text, available bigint, locked bigint)
+language sql security definer as $$
+  select w.currency, w.available, w.locked
+  from public.wallets w
+  where w.user_id = p_user_id;
+$$;
 
-create table if not exists public.reward_catalog (
-  id uuid primary key default gen_random_uuid(),
-  title text not null,
-  reward_type text not null,
-  credit_cost bigint not null,
-  stock integer,
-  status text not null default 'active',
-  created_at timestamptz not null default now()
-);
+create or replace function public.precheck_withdrawal(p_user_id uuid, p_amount bigint)
+returns table(is_allowed boolean, reason text)
+language sql security definer as $$
+  select
+    case when p_amount > 0 then true else false end as is_allowed,
+    case when p_amount > 0 then 'ok' else 'amount_must_be_positive' end as reason;
+$$;
 
-create table if not exists public.reward_orders (
-  id uuid primary key default gen_random_uuid(),
-  user_id uuid not null,
-  reward_id uuid not null references public.reward_catalog(id),
-  credits_spent bigint not null,
-  status text not null,
-  review_reason text,
-  created_at timestamptz not null default now(),
-  updated_at timestamptz not null default now()
-);
+create or replace function public.check_reward_eligibility(p_user_id uuid, p_reward_id uuid)
+returns table(is_eligible boolean, reason text)
+language sql security definer as $$
+  select true as is_eligible, 'policy_check_placeholder' as reason;
+$$;
+
+revoke all on function public.get_wallet_statement(uuid) from public;
+grant execute on function public.get_wallet_statement(uuid) to authenticated;
+
+revoke all on function public.precheck_withdrawal(uuid,bigint) from public;
+grant execute on function public.precheck_withdrawal(uuid,bigint) to authenticated;
+
+revoke all on function public.check_reward_eligibility(uuid,uuid) from public;
+grant execute on function public.check_reward_eligibility(uuid,uuid) to authenticated;
