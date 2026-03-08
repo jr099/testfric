@@ -1,0 +1,14 @@
+{
+  "name": "pulseplay-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "echo 'Build pipelines configured per app'",
+    "lint": "echo 'Add eslint pipelines'",
+    "test": "echo 'Add tests per package'"
+  }
+}
