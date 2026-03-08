@@ -1,0 +1,460 @@
+{
+  "product_vision": {
+    "working_name": "PulsePlay",
+    "promise": "Convert short play sessions into transparent progression and clearly governed rewards, with no hidden value mechanics.",
+    "target_segments": [
+      "mobile-first casual players",
+      "competitive players seeking fair seasonal ladders",
+      "users requiring clear value and withdrawal transparency",
+      "brand partners funding sponsored rewards"
+    ],
+    "differentiation": [
+      "five-resource economy with explicit boundaries",
+      "public rulebooks for probabilities, reward rates, and season scoring",
+      "separate monetization from reward-credit generation",
+      "user-visible immutable ledger and exportable statements",
+      "compliance center embedded in product UX"
+    ],
+    "value_proposition": {
+      "for_players": "Predictable progression, fair competition modes, and auditable reward lifecycle.",
+      "for_sponsors": "Controlled sponsored campaigns with anti-fraud safeguards and measurable engagement.",
+      "for_ops_and_legal": "Versioned rule engine, complete audit trails, and compliance-by-design controls."
+    },
+    "core_retention_loop": [
+      "claim daily tickets",
+      "play 30-90s games",
+      "earn coins and season xp",
+      "complete missions",
+      "unlock cosmetics/status and eligible reward credits via explicit objectives",
+      "redeem rewards with tracked fulfillment"
+    ],
+    "product_philosophy": [
+      "clarity over complexity",
+      "skill and consistency over opaque chance",
+      "user control over pressure",
+      "modular architecture with domain ownership",
+      "observable systems before scale"
+    ],
+    "trust_principles": [
+      "all material rules are visible before user commitment",
+      "no direct premium-to-withdrawable conversion",
+      "all financial and reward events are append-only logged",
+      "probabilities displayed when randomness exists",
+      "all policy changes are versioned and time-scoped"
+    ]
+  },
+  "functional_architecture": {
+    "public_pages": [
+      {
+        "page": "Home",
+        "objective": "Explain value proposition and trust guarantees in <10 seconds.",
+        "sections": ["hero", "how it works", "resource explainer", "social proof with context", "compliance highlights", "faq teaser"],
+        "cta": ["Create account", "Explore games", "View trust center"],
+        "data": ["aggregated platform metrics", "published rulebook versions", "featured rewards"],
+        "ui_components": ["hero card", "resource chips", "timeline", "metric badges", "faq accordion"]
+      },
+      {
+        "page": "How It Works",
+        "objective": "Describe lifecycle from signup to reward claim with value boundaries.",
+        "sections": ["journey steps", "resource boundary matrix", "competition modes", "withdrawal prerequisites"],
+        "cta": ["Start onboarding", "Read full rules"],
+        "data": ["rule versions", "processing SLA"],
+        "ui_components": ["stepper", "comparison table", "info callouts"]
+      },
+      {
+        "page": "Rewards",
+        "objective": "Show available reward categories and claim conditions.",
+        "sections": ["digital rewards", "external rewards", "eligibility rules", "fulfillment timelines"],
+        "cta": ["Browse catalog", "See claim policy"],
+        "data": ["catalog summaries", "stock", "min thresholds"],
+        "ui_components": ["filter chips", "reward cards", "stock indicator", "policy drawer"]
+      },
+      {
+        "page": "Competitions",
+        "objective": "Present season formats and fairness model.",
+        "sections": ["season calendar", "standard vs boosted", "scoring", "prizes"],
+        "cta": ["Join season", "Read competition rules"],
+        "data": ["active season", "past outcomes anonymized"],
+        "ui_components": ["calendar", "leaderboard preview", "rule badge"]
+      },
+      {
+        "page": "Winners",
+        "objective": "Provide contextualized proof with anti-misleading framing.",
+        "sections": ["distribution stats", "recent fulfilled claims", "methodology"],
+        "cta": ["View full distributions"],
+        "data": ["anonymized payouts", "percentiles"],
+        "ui_components": ["histograms", "verified badge", "disclaimer panel"]
+      },
+      {
+        "page": "Trust & Compliance",
+        "objective": "Centralize legal, transparency, and responsible play controls.",
+        "sections": ["consents", "probabilities", "anti-fraud", "responsible design", "data rights"],
+        "cta": ["Manage consent", "Export my data"],
+        "data": ["policy versions", "regulatory contacts"],
+        "ui_components": ["policy changelog", "toggle controls", "audit links"]
+      }
+    ],
+    "authenticated_pages": [
+      {
+        "page": "Dashboard",
+        "objective": "Single-pane view of balances, missions, and critical alerts.",
+        "sections": ["wallet summary", "daily missions", "season progress", "trust alerts"],
+        "cta": ["Play now", "Claim mission", "Open wallet"],
+        "data": ["wallet balances", "mission states", "season rank"],
+        "ui_components": ["kpi tiles", "mission list", "progress bars", "event feed"]
+      },
+      {
+        "page": "Wallet",
+        "objective": "Explain every balance change and conversion route.",
+        "sections": ["resource balances", "ledger", "conversion simulator", "exports"],
+        "cta": ["Convert coins", "Download statement"],
+        "data": ["wallets", "ledger entries", "rate tables"],
+        "ui_components": ["tabbed balances", "transaction table", "filters", "csv export"]
+      },
+      {
+        "page": "Games",
+        "objective": "Start game sessions with pre-commit clarity.",
+        "sections": ["game catalog", "entry cost", "probability panel", "recent performance"],
+        "cta": ["Play standard", "Play boosted"],
+        "data": ["game configs", "ticket costs", "boost limits"],
+        "ui_components": ["game cards", "rules modal", "entry confirmation sheet"]
+      },
+      {
+        "page": "Rewards Hub",
+        "objective": "Manage reward credit earning and claim workflow.",
+        "sections": ["eligible credits", "catalog", "claim requests", "fulfillment status"],
+        "cta": ["Request claim", "Track order"],
+        "data": ["credit balance", "claim history", "kyc status"],
+        "ui_components": ["status chips", "claim wizard", "timeline tracker"]
+      },
+      {
+        "page": "Competitions",
+        "objective": "Compete in season ladders with clear mode separation.",
+        "sections": ["current season", "leaderboards", "rules", "rewards"],
+        "cta": ["Enter challenge", "View rank details"],
+        "data": ["entries", "scores", "tie-break reasons"],
+        "ui_components": ["leaderboard table", "rank delta sparkline", "rule version pill"]
+      },
+      {
+        "page": "Account & Safety",
+        "objective": "Security, limits, consent, and support in one place.",
+        "sections": ["authentication", "spend/time limits", "cookie/privacy consent", "support"],
+        "cta": ["Set limits", "Enable 2FA", "Open ticket"],
+        "data": ["auth factors", "limit settings", "consent records"],
+        "ui_components": ["security cards", "toggles", "consent ledger", "ticket panel"]
+      }
+    ]
+  },
+  "game_economy": {
+    "resources": [
+      {
+        "name": "Coins",
+        "type": "soft_currency",
+        "definition": "In-game utility currency for internal digital catalog and non-withdrawable perks.",
+        "earn_sources": ["game outcomes", "daily missions", "season milestones"],
+        "purchase": "not directly purchasable",
+        "consumption": ["digital cosmetics", "profile customization", "non-monetary boosts"],
+        "exchangeable": "convertible to internal digital items only; never to reward credits/cash",
+        "legal_risk": "low",
+        "ux_visibility": "persistent top bar + tooltips + pre-action impact preview",
+        "required_logging": ["earn event", "spend event", "reason code", "rule_version_id"]
+      },
+      {
+        "name": "Tickets",
+        "type": "entry_resource",
+        "definition": "Unit required to start a game session.",
+        "earn_sources": ["daily grant", "missions", "season pass free track"],
+        "purchase": "indirect via optional bundles with hard caps",
+        "consumption": ["game session entry"],
+        "exchangeable": "non-exchangeable",
+        "legal_risk": "medium if tied to reward opportunity; mitigated by standard mode parity",
+        "ux_visibility": "session entry modal shows source and cost",
+        "required_logging": ["grant source", "spend entry_id", "mode", "idempotency_key"]
+      },
+      {
+        "name": "XP Season",
+        "type": "progression_points",
+        "definition": "Progress metric for seasonal levels and leaderboard rank.",
+        "earn_sources": ["performance", "weekly challenges", "fair-play streak"],
+        "purchase": "not purchasable",
+        "consumption": ["automatic level progression"],
+        "exchangeable": "non-exchangeable",
+        "legal_risk": "low",
+        "ux_visibility": "season progress bar and rank panel",
+        "required_logging": ["xp_delta", "source_event", "season_id", "anti_cheat_score"]
+      },
+      {
+        "name": "Gems",
+        "type": "premium_currency",
+        "definition": "Paid currency for convenience and cosmetic acceleration only.",
+        "earn_sources": ["purchase", "limited sponsor grants"],
+        "purchase": "purchasable via payment providers",
+        "consumption": ["cosmetic shop", "queue skip", "extra personalization"],
+        "exchangeable": "cannot convert to reward credits, coins, or cash",
+        "legal_risk": "medium via perceived pay-to-win; mitigated by strict exclusions",
+        "ux_visibility": "separate premium wallet and clear non-withdrawable badge",
+        "required_logging": ["payment_order_id", "webhook_event_id", "spend_context", "refund_link"]
+      },
+      {
+        "name": "Reward Credits",
+        "type": "eligible_reward_balance",
+        "definition": "Balance eligible for reward claims under policy and verification rules.",
+        "earn_sources": ["explicit reward campaigns", "season rank rewards", "sponsor tasks"],
+        "purchase": "never purchasable",
+        "consumption": ["reward claim orders"],
+        "exchangeable": "convertible only through approved reward catalog exits",
+        "legal_risk": "high; requires strict governance",
+        "ux_visibility": "separate claims wallet with policy and SLA disclosure",
+        "required_logging": ["generation_rule_id", "eligibility_snapshot", "claim_status_changes", "operator_actions"]
+      }
+    ],
+    "engagement_loops": [
+      {"name": "Daily Clarity Loop", "steps": ["daily tickets", "short games", "coins/xp", "mission claim"], "guardrails": ["session reminders", "daily cap"]},
+      {"name": "Season Mastery Loop", "steps": ["weekly challenges", "xp progression", "rank movement", "cosmetic unlocks"], "guardrails": ["mode fairness", "rank reset announcement"]},
+      {"name": "Reward Eligibility Loop", "steps": ["qualify via transparent objectives", "earn reward credits", "submit claim", "track fulfillment"], "guardrails": ["kyc gate when needed", "anti-fraud scoring"]}
+    ],
+    "anti_abuse_rules": [
+      "device fingerprint risk scoring before reward credit generation",
+      "velocity limits on ticket spend, claims, and payment retries",
+      "cooldown after repeated failed authentication or chargeback events",
+      "duplicate account heuristics tied to payout destination reuse",
+      "manual review queue for anomalous leaderboard spikes"
+    ],
+    "competition_rules": [
+      "seasons have fixed start/end timestamps and published scoring version",
+      "standard mode eligible for ranked integrity baseline",
+      "boosted mode allowed for convenience multipliers on coins only, never direct reward credits",
+      "leaderboards include tie-break fields and audit reason",
+      "competition rewards are mostly cosmetic/status, with capped reward-credit pools"
+    ]
+  },
+  "ux_ui_system": {
+    "design_principles": ["mobile-first", "trust-centric copy", "single-action focus", "low cognitive load"],
+    "design_tokens": {
+      "color": {"bg": "#0B1020", "surface": "#121A2F", "primary": "#4F7CFF", "success": "#12B886", "warning": "#F59F00", "danger": "#FA5252"},
+      "typography": {"font_family": "Inter", "scale": [12, 14, 16, 20, 24, 32]},
+      "spacing": [4, 8, 12, 16, 24, 32],
+      "radius": {"sm": 8, "md": 12, "lg": 16}
+    },
+    "layout": {
+      "app_shell": "bottom-tab mobile nav (Play, Season, Rewards, Account) + desktop side rail",
+      "content_grid": "single column mobile, 12-col desktop",
+      "global_surfaces": ["top balance strip", "notification center", "trust banner"]
+    },
+    "key_components": [
+      "ResourceBalanceCard",
+      "LedgerTable",
+      "RuleVersionBadge",
+      "ProbabilityDisclosurePanel",
+      "ClaimStatusTimeline",
+      "EntryConfirmSheet",
+      "LimitControlPanel"
+    ],
+    "navigation": {
+      "primary_tabs": ["Play", "Season", "Rewards", "Account"],
+      "one_tap_rule_access": true,
+      "deep_linking": "all key states support URL params for support/audit",
+      "empty_states": "include next-best action and policy hints"
+    },
+    "accessibility": {
+      "wcag_target": "AA",
+      "min_tap_target": 44,
+      "keyboard_support": true,
+      "reduced_motion_mode": true,
+      "contrast_checks_in_ci": true
+    }
+  },
+  "technical_stack": {
+    "frontend": {
+      "framework": "Next.js App Router",
+      "language": "TypeScript strict",
+      "ui": "Tailwind CSS + shared component library",
+      "state": "Zustand for client state + TanStack Query for server state",
+      "forms": "React Hook Form + Zod",
+      "tables": "TanStack Table",
+      "charts": "Recharts",
+      "auth_ux": "next-auth or custom JWT with refresh and device session list"
+    },
+    "backend": {
+      "runtime": "Node.js 22",
+      "framework": "NestJS modular monolith with domain modules",
+      "api_style": "REST JSON with OpenAPI contracts",
+      "async": "BullMQ workers for webhooks, payouts, notifications",
+      "payments": "provider-agnostic adapter layer",
+      "notifications": "email + push + in-app event bus",
+      "audit": "append-only audit service with signed hashes"
+    },
+    "data": {
+      "primary_db": "PostgreSQL 16",
+      "cache_queue": "Redis",
+      "object_storage": "S3-compatible for exports and policy snapshots",
+      "analytics": "event stream to ClickHouse/BigQuery optional",
+      "orm": "Prisma for operational schema + SQL for ledger critical paths"
+    },
+    "infra": {
+      "deployment": "Docker + Kubernetes or managed containers",
+      "ci_cd": "GitHub Actions with lint/test/security gates",
+      "observability": "OpenTelemetry + Prometheus + Grafana + Sentry",
+      "security": "Vault/Secrets Manager, RBAC, WAF, rate limiting",
+      "resilience": "retry policies, DLQ for failed webhook and payout jobs"
+    },
+    "why_this_stack": [
+      "supports strict domain modularity with shared contracts",
+      "enables typed end-to-end validation and safer iteration",
+      "handles high-event workloads with auditable pipelines",
+      "aligns with mobile performance and fast UI release cycles"
+    ]
+  },
+  "database_schema": {
+    "entities": [
+      {"name": "users", "role": "auth principal", "key_columns": ["id", "email", "status", "created_at"], "relations": ["1-1 user_profiles", "1-N legal_consents", "1-N wallets"], "indexes": ["unique(email)", "status"]},
+      {"name": "user_profiles", "role": "public/private profile", "key_columns": ["user_id", "display_name", "country", "dob", "kyc_level"], "relations": ["1-1 users"], "indexes": ["country", "kyc_level"]},
+      {"name": "wallets", "role": "resource balances by currency", "key_columns": ["id", "user_id", "currency", "available", "locked"], "relations": ["N-1 users", "1-N wallet_transactions"], "indexes": ["unique(user_id,currency)"]},
+      {"name": "wallet_transactions", "role": "append-only ledger", "key_columns": ["id", "wallet_id", "type", "amount", "balance_after", "reason", "idempotency_key", "created_at"], "relations": ["N-1 wallets"], "indexes": ["wallet_id,created_at", "unique(idempotency_key)", "type"]},
+      {"name": "currencies", "role": "currency metadata", "key_columns": ["code", "kind", "is_purchasable", "is_withdrawable"], "relations": [], "indexes": ["kind"]},
+      {"name": "games", "role": "game registry", "key_columns": ["id", "slug", "status", "ruleset_version_id"], "relations": ["1-N game_sessions"], "indexes": ["unique(slug)", "status"]},
+      {"name": "game_sessions", "role": "user play session", "key_columns": ["id", "user_id", "game_id", "mode", "ticket_cost", "started_at", "ended_at"], "relations": ["N-1 users", "N-1 games", "1-1 game_outcomes"], "indexes": ["user_id,started_at", "game_id,mode"]},
+      {"name": "game_outcomes", "role": "result and rewards of session", "key_columns": ["session_id", "score", "coins_delta", "xp_delta", "reward_credit_delta", "rng_seed_hash"], "relations": ["1-1 game_sessions"], "indexes": ["score", "reward_credit_delta"]},
+      {"name": "reward_catalog", "role": "claimable items", "key_columns": ["id", "type", "title", "credit_cost", "stock", "sla_days", "active"], "relations": ["1-N reward_orders"], "indexes": ["active", "type", "credit_cost"]},
+      {"name": "reward_orders", "role": "reward claims", "key_columns": ["id", "user_id", "catalog_id", "status", "credit_spent", "review_reason", "created_at"], "relations": ["N-1 users", "N-1 reward_catalog"], "indexes": ["user_id,created_at", "status"]},
+      {"name": "competitions", "role": "season/challenge definitions", "key_columns": ["id", "season_id", "mode", "ruleset_version_id", "start_at", "end_at"], "relations": ["1-N leaderboard_entries"], "indexes": ["season_id", "mode", "start_at"]},
+      {"name": "leaderboard_entries", "role": "rank snapshots", "key_columns": ["id", "competition_id", "user_id", "score", "rank", "tie_break_data"], "relations": ["N-1 competitions", "N-1 users"], "indexes": ["competition_id,rank", "competition_id,user_id"]},
+      {"name": "withdrawals", "role": "external value exits", "key_columns": ["id", "user_id", "type", "amount", "status", "review_notes", "processed_at"], "relations": ["N-1 users"], "indexes": ["user_id,created_at", "status"]},
+      {"name": "payment_orders", "role": "purchase intents", "key_columns": ["id", "user_id", "provider", "amount", "currency", "status", "created_at"], "relations": ["N-1 users", "1-N payment_events"], "indexes": ["user_id,created_at", "status", "provider"]},
+      {"name": "payment_events", "role": "provider webhook ledger", "key_columns": ["id", "payment_order_id", "provider_event_id", "event_type", "payload_hash", "processed_at"], "relations": ["N-1 payment_orders"], "indexes": ["unique(provider_event_id)", "payment_order_id"]},
+      {"name": "notifications", "role": "in-app/push/email notices", "key_columns": ["id", "user_id", "channel", "template", "status", "sent_at"], "relations": ["N-1 users"], "indexes": ["user_id,status", "channel"]},
+      {"name": "support_threads", "role": "support tickets", "key_columns": ["id", "user_id", "category", "status", "priority", "created_at"], "relations": ["N-1 users", "1-N support_messages"], "indexes": ["user_id,status", "priority"]},
+      {"name": "support_messages", "role": "ticket conversation", "key_columns": ["id", "thread_id", "sender_type", "body", "created_at"], "relations": ["N-1 support_threads"], "indexes": ["thread_id,created_at"]},
+      {"name": "audit_logs", "role": "security and policy audit trail", "key_columns": ["id", "actor_type", "actor_id", "action", "entity_type", "entity_id", "hash", "created_at"], "relations": [], "indexes": ["entity_type,entity_id", "actor_id", "created_at"]},
+      {"name": "legal_consents", "role": "consent evidence", "key_columns": ["id", "user_id", "consent_type", "policy_version", "granted", "ip", "created_at"], "relations": ["N-1 users"], "indexes": ["user_id,consent_type", "policy_version"]},
+      {"name": "anti_fraud_flags", "role": "risk indicators", "key_columns": ["id", "user_id", "flag_type", "severity", "status", "evidence_ref", "created_at"], "relations": ["N-1 users"], "indexes": ["user_id,status", "severity"]}
+    ]
+  },
+  "api_design": {
+    "domains": [
+      {"name": "auth", "endpoints": ["POST /auth/register", "POST /auth/login", "POST /auth/refresh", "POST /auth/logout", "POST /auth/2fa/verify"], "validations": ["email verification", "password policy", "device challenge"], "sensitive_logs": ["login_attempt", "lockout", "2fa_state"]},
+      {"name": "profile", "endpoints": ["GET /profile/me", "PATCH /profile/me", "POST /profile/kyc/start", "GET /profile/kyc/status"], "validations": ["country rules", "age gating"], "sensitive_logs": ["kyc_transition", "country_change"]},
+      {"name": "wallet", "endpoints": ["GET /wallet/balances", "GET /wallet/ledger", "POST /wallet/conversions/coins-to-items", "GET /wallet/export"], "validations": ["conversion rule version", "balance sufficiency"], "sensitive_logs": ["ledger_append", "export_request"]},
+      {"name": "games", "endpoints": ["GET /games", "GET /games/:id/rules", "POST /games/:id/sessions", "POST /games/sessions/:id/complete"], "validations": ["ticket availability", "mode eligibility", "session signature"], "sensitive_logs": ["session_start", "session_complete", "rng_reference"]},
+      {"name": "rewards", "endpoints": ["GET /rewards/catalog", "POST /rewards/claims", "GET /rewards/claims", "GET /rewards/claims/:id"], "validations": ["credit balance", "stock", "eligibility policy"], "sensitive_logs": ["claim_created", "claim_reviewed", "claim_fulfilled"]},
+      {"name": "competitions", "endpoints": ["GET /seasons/active", "GET /competitions", "POST /competitions/:id/enter", "GET /competitions/:id/rules"], "validations": ["season window", "mode rules"], "sensitive_logs": ["entry_event", "disqualification_event"]},
+      {"name": "leaderboards", "endpoints": ["GET /leaderboards/:competitionId", "GET /leaderboards/:competitionId/me", "GET /leaderboards/:competitionId/distribution"], "validations": ["snapshot consistency"], "sensitive_logs": ["rank_recompute", "tie_break_resolution"]},
+      {"name": "payments", "endpoints": ["POST /payments/orders", "GET /payments/orders/:id", "POST /payments/webhooks/:provider"], "validations": ["price catalog", "idempotency key", "webhook signature"], "sensitive_logs": ["order_created", "webhook_processed", "reconciliation_result"]},
+      {"name": "withdrawals", "endpoints": ["POST /withdrawals", "GET /withdrawals", "GET /withdrawals/:id", "POST /withdrawals/:id/cancel"], "validations": ["min threshold", "kyc status", "fraud score"], "sensitive_logs": ["withdrawal_requested", "withdrawal_approved", "withdrawal_rejected"]},
+      {"name": "support", "endpoints": ["POST /support/threads", "GET /support/threads", "POST /support/threads/:id/messages"], "validations": ["rate limits", "content policy"], "sensitive_logs": ["ticket_created", "escalation"]},
+      {"name": "notifications", "endpoints": ["GET /notifications", "PATCH /notifications/:id/read", "PATCH /notifications/preferences"], "validations": ["channel consent"], "sensitive_logs": ["preference_change"]},
+      {"name": "admin", "endpoints": ["GET /admin/audit-logs", "POST /admin/rulesets", "POST /admin/rewards/:id/review", "POST /admin/flags/:id/resolve"], "validations": ["rbac scope", "dual approval for critical actions"], "sensitive_logs": ["admin_action", "ruleset_publish"]},
+      {"name": "compliance", "endpoints": ["GET /compliance/policies", "POST /compliance/consents", "GET /compliance/consents/history", "POST /compliance/data-export"], "validations": ["policy version exists", "user auth freshness"], "sensitive_logs": ["consent_recorded", "data_export_completed"]}
+    ]
+  },
+  "user_flows": [
+    {"name": "visitor_to_signup", "steps": ["land on home", "review rules and value boundaries", "start signup", "email verify", "consent capture"], "success_metric": "signup completion rate"},
+    {"name": "onboarding", "steps": ["choose display profile", "tutorial mission", "resource education", "set optional limits"], "success_metric": "D1 activation"},
+    {"name": "first_game", "steps": ["open games", "review entry sheet", "consume ticket", "complete session", "receive coins/xp with receipt"], "success_metric": "first-session completion"},
+    {"name": "first_reward", "steps": ["open rewards eligibility", "complete objective", "earn reward credits", "view claim prerequisites"], "success_metric": "reward-credit qualified users"},
+    {"name": "first_purchase", "steps": ["open gems store", "select package", "double confirmation", "payment webhook settlement", "wallet credit"], "success_metric": "paid conversion without disputes"},
+    {"name": "first_competition", "steps": ["open season tab", "read rules version", "join standard ladder", "play ranked sessions", "track rank delta"], "success_metric": "season participation"},
+    {"name": "vip_progression", "steps": ["earn status via activity consistency", "unlock cosmetic/status perks", "no withdrawal advantage"], "success_metric": "status retention"},
+    {"name": "reward_claim", "steps": ["select catalog item", "eligibility check", "submit claim", "review/approve", "fulfillment update"], "success_metric": "claim success SLA"},
+    {"name": "withdrawal_request", "steps": ["open withdrawals", "see threshold/fees/SLA", "submit request", "risk screening", "approve and settle"], "success_metric": "approved withdrawal cycle time"},
+    {"name": "support_ticket", "steps": ["open support", "choose category", "attach evidence", "thread updates", "resolution survey"], "success_metric": "time to first response"},
+    {"name": "consent_privacy", "steps": ["CMP prompt", "granular preferences", "policy version logging", "user can revoke/export"], "success_metric": "consent integrity coverage"}
+  ],
+  "compliance_responsible_design": {
+    "risk_areas": [
+      {"area": "payment_to_gain_ambiguity", "risk": "premium spend perceived as monetizable gain purchase", "mitigation": ["no gems->reward credits conversion", "standard mode earning baseline", "copy review gates"], "evidence": ["rulebook snapshots", "ui copy audit logs"]},
+      {"area": "probability_transparency", "risk": "opaque randomness", "mitigation": ["publish probabilities", "seed-hash references", "history visibility"], "evidence": ["ruleset versions", "outcome logs"]},
+      {"area": "withdrawal_fairness", "risk": "unclear delays or arbitrary denials", "mitigation": ["pre-disclosed SLA", "status timeline", "appeal workflow"], "evidence": ["status transitions", "review reasons"]},
+      {"area": "consumer_protection", "risk": "misleading urgency", "mitigation": ["ban fake countdowns", "stock timestamp disclosure", "responsible defaults"], "evidence": ["campaign config history"]},
+      {"area": "privacy_and_cookies", "risk": "invalid consent records", "mitigation": ["CMP with versioned consent ledger", "purpose-based toggles"], "evidence": ["legal_consents table", "policy hash"]},
+      {"area": "fraud_abuse", "risk": "multi-accounting and payout abuse", "mitigation": ["risk scoring", "velocity controls", "manual review"], "evidence": ["anti_fraud_flags", "admin actions"]},
+      {"area": "responsible_play", "risk": "excessive engagement pressure", "mitigation": ["time reminders", "self-imposed spend limits", "optional cooldown"], "evidence": ["limit settings history", "notification logs"]}
+    ],
+    "design_requirements": [
+      "display resource type badges everywhere value is shown",
+      "show pre-commit summary for all value-impacting actions",
+      "attach policy/rule version to every reward or competition action",
+      "provide user-exportable ledger and claim history"
+    ]
+  },
+  "business_model": {
+    "revenue_streams": [
+      "gems packages for convenience/cosmetics",
+      "optional season pass with non-withdrawable perks",
+      "sponsored reward campaigns",
+      "affiliate revenue on partner offers",
+      "B2B white-label analytics module (future)"
+    ],
+    "cost_structure": ["payment fees", "reward fulfillment", "fraud operations", "infra and observability", "support and compliance"],
+    "conservative_plan": {"focus": "low legal exposure", "mix": {"gems": 0.45, "sponsored": 0.35, "affiliate": 0.2}, "notes": "caps on reward-credit outflows"},
+    "aggressive_plan": {"focus": "faster growth", "mix": {"gems": 0.6, "sponsored": 0.25, "affiliate": 0.15}, "notes": "requires stricter anti-abuse and support staffing"},
+    "key_risks": ["chargebacks", "reward fraud", "regulatory interpretation drift", "sponsor concentration"],
+    "tradeoffs": ["engagement intensity vs responsible design", "faster monetization vs compliance certainty"]
+  },
+  "product_backlogs": {
+    "mvp": [
+      {"title": "Auth + Consent Foundation", "description": "registration, login, CMP, consent ledger", "priority": "P0", "dependencies": [], "effort": "M", "impact": "critical"},
+      {"title": "Wallet + Append-only Ledger", "description": "multi-resource wallets and immutable transactions", "priority": "P0", "dependencies": ["Auth"], "effort": "L", "impact": "critical"},
+      {"title": "Game Session Pipeline", "description": "ticket spend, session start/complete, outcomes", "priority": "P0", "dependencies": ["Wallet"], "effort": "L", "impact": "high"},
+      {"title": "Season + Leaderboard Core", "description": "season config, scoring, rank APIs", "priority": "P1", "dependencies": ["Game Session"], "effort": "M", "impact": "high"},
+      {"title": "Rewards Catalog + Claims", "description": "catalog, credit checks, claim workflow", "priority": "P1", "dependencies": ["Wallet"], "effort": "M", "impact": "high"},
+      {"title": "Trust Center UI", "description": "rulebook, probabilities, policy changelog", "priority": "P1", "dependencies": ["Content"], "effort": "S", "impact": "high"}
+    ],
+    "v2": [
+      {"title": "Payments + Webhook Reconciliation", "description": "gems purchase with idempotent settlement", "priority": "P0", "dependencies": ["Wallet"], "effort": "L", "impact": "critical"},
+      {"title": "Anti-fraud Engine v1", "description": "risk scoring, velocity limits, review queue", "priority": "P0", "dependencies": ["Payments", "Rewards"], "effort": "L", "impact": "critical"},
+      {"title": "Withdrawals Flow", "description": "request, review, payout status tracking", "priority": "P1", "dependencies": ["Rewards", "KYC"], "effort": "M", "impact": "high"},
+      {"title": "Notification Center", "description": "in-app + email templates and preferences", "priority": "P1", "dependencies": ["Auth"], "effort": "M", "impact": "medium"}
+    ],
+    "v3": [
+      {"title": "Clans and Team Challenges", "description": "social competitive layer with moderation", "priority": "P2", "dependencies": ["Season"], "effort": "L", "impact": "medium"},
+      {"title": "Sponsor Campaign Studio", "description": "self-serve sponsor objectives and budgeting", "priority": "P2", "dependencies": ["Rewards", "Analytics"], "effort": "L", "impact": "high"},
+      {"title": "Advanced Analytics and Experimentation", "description": "cohort dashboards and feature flags", "priority": "P2", "dependencies": ["Event Tracking"], "effort": "M", "impact": "medium"}
+    ]
+  },
+  "monorepo_structure": {
+    "apps/web": "Next.js application (public + authenticated UX, app router)",
+    "apps/api": "NestJS API gateway and domain modules",
+    "packages/ui": "shared design system and primitive components",
+    "packages/config": "eslint, tsconfig, tailwind, env schema",
+    "packages/types": "shared DTOs, enums, zod schemas",
+    "packages/game-engine": "game session validation, scoring adapters, rules hooks",
+    "packages/shared": "cross-cutting utilities (logging, idempotency, errors, auth helpers)"
+  },
+  "initial_code_generation": {
+    "frontend_files": [
+      "apps/web/src/app/layout.tsx",
+      "apps/web/src/app/page.tsx",
+      "apps/web/src/app/(app)/dashboard/page.tsx",
+      "apps/web/src/app/(app)/wallet/page.tsx",
+      "apps/web/src/app/(app)/rewards/page.tsx",
+      "apps/web/src/app/(app)/competitions/page.tsx",
+      "apps/web/src/components/wallet/ledger-table.tsx",
+      "apps/web/src/components/trust/probability-panel.tsx"
+    ],
+    "backend_files": [
+      "apps/api/src/main.ts",
+      "apps/api/src/app.module.ts",
+      "apps/api/src/modules/auth/auth.module.ts",
+      "apps/api/src/modules/wallet/wallet.module.ts",
+      "apps/api/src/modules/games/games.module.ts",
+      "apps/api/src/modules/rewards/rewards.module.ts",
+      "apps/api/src/modules/competitions/competitions.module.ts",
+      "apps/api/src/modules/payments/payments.module.ts",
+      "apps/api/src/modules/withdrawals/withdrawals.module.ts",
+      "apps/api/src/modules/audit/audit.module.ts"
+    ],
+    "shared_files": [
+      "packages/types/src/currencies.ts",
+      "packages/types/src/api-contracts.ts",
+      "packages/config/src/app-config.ts",
+      "packages/shared/src/idempotency.ts"
+    ],
+    "data_files": [
+      "apps/api/prisma/schema.prisma",
+      "apps/api/prisma/seed.ts",
+      "apps/api/sql/ledger_constraints.sql",
+      "apps/api/sql/ruleset_versioning.sql"
+    ]
+  }
+}
