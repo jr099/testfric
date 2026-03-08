@@ -1,12 +1,14 @@
-# PulsePlay Monorepo
+# PulsePlay Monorepo (Vite + Supabase)
 
-Initial implementation scaffold for a modern gamification and rewards platform.
+Modern, mobile-first scaffold for a gamification and rewards platform.
 
 ## Structure
-- `apps/web`: Next.js App Router frontend
-- `apps/api`: NestJS backend API
-- `packages/ui`: shared UI components
-- `packages/config`: shared configuration and env schema
-- `packages/types`: shared domain types and API contracts
-- `packages/game-engine`: scoring and rules hooks
-- `packages/shared`: logging, idempotency and common helpers
+- `apps/web`: Vite + React + TypeScript frontend
+- `packages/ui`: design-system primitives
+- `packages/types`: shared domain and API types
+- `packages/config`: runtime and environment config
+- `packages/game-engine`: score/rules helpers
+- `packages/shared`: cross-domain helpers
+- `supabase/functions`: Edge Functions for sensitive workflows
+- `supabase/migrations`: PostgreSQL schema and RLS policies
+- `supabase/seed`: deterministic seed scripts/data

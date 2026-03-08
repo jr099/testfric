@@ -1,14 +1,14 @@
 {
   "name": "pulseplay-monorepo",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "build": "echo 'Build pipelines configured per app'",
-    "lint": "echo 'Add eslint pipelines'",
-    "test": "echo 'Add tests per package'"
+    "dev:web": "vite --config apps/web/vite.config.ts",
+    "build:web": "vite build --config apps/web/vite.config.ts",
+    "preview:web": "vite preview --config apps/web/vite.config.ts"
   }
 }
