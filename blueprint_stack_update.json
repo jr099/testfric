@@ -1,0 +1,220 @@
+{
+  "technical_stack": {
+    "frontend": {
+      "runtime": "Vite + React 18 + TypeScript strict",
+      "ui": "Composable design system (packages/ui), mobile-first layouts, Tailwind-compatible tokens",
+      "state_and_data": "TanStack Query for server-state, lightweight local state (Zustand or Context), Zod validations",
+      "auth_ux": "Supabase Auth client flows (magic link, OAuth, passwordless) with protected routes"
+    },
+    "backend_managed": {
+      "platform": "Supabase",
+      "database": "PostgreSQL managed by Supabase with RLS-first model",
+      "auth": "Supabase Auth (JWT, sessions, MFA-ready)",
+      "storage": "Supabase Storage buckets with policy-based access",
+      "realtime": "Supabase Realtime for lightweight status events (claims, withdrawals, leaderboard updates)",
+      "server_logic": "Supabase Edge Functions for sensitive workflows and external webhooks"
+    },
+    "edge_and_integrations": {
+      "payments": "Provider webhooks handled by Supabase Edge Functions with idempotency keys persisted in PostgreSQL",
+      "notifications": "Edge Functions + provider APIs (email/push) triggered by DB events or scheduled jobs",
+      "auditability": "Append-only ledger tables + immutable audit_logs + rule_versions snapshots"
+    },
+    "observability_and_ops": {
+      "monitoring": "Supabase logs, Edge Function logs, SQL query performance insights",
+      "secrets": "Supabase project env vars + scoped service role usage",
+      "deployment": "Single frontend deploy (Vite static hosting) + Supabase managed backend",
+      "ci_cd": "Schema migration checks, SQL linting, type checks, frontend build validation"
+    },
+    "why_this_stack": [
+      "Reduces custom backend overhead for MVP while preserving strong data governance.",
+      "Native Postgres + RLS aligns with compliance-by-design and data minimization.",
+      "Edge Functions isolate high-risk business logic (payments, withdrawals, reward claims).",
+      "Vite accelerates frontend iteration speed and mobile performance tuning."
+    ]
+  },
+  "monorepo_structure": {
+    "apps/web": "Vite React TypeScript app (public pages + authenticated member area + Supabase client integration)",
+    "packages/ui": "Design system primitives, theme tokens, responsive components",
+    "packages/types": "Shared domain models, ledger types, API payload contracts",
+    "packages/config": "Environment schema, runtime constants, feature flags",
+    "packages/game-engine": "Client-safe scoring utilities and deterministic helpers",
+    "packages/shared": "Cross-cutting helpers (idempotency key builders, formatters, guards)",
+    "supabase/functions": "Edge Functions for webhook handling, reward/withdrawal orchestration, compliance checks",
+    "supabase/migrations": "SQL schema, indexes, RLS policies, RPCs, triggers, versioned rule objects",
+    "supabase/seed": "Deterministic seed data for local/dev/staging validation"
+  },
+  "api_design": {
+    "domains": [
+      {
+        "name": "auth",
+        "frontend_access": "Supabase Auth client SDK",
+        "sql_rls_rpc": "RLS on user-owned tables keyed by auth.uid()",
+        "edge_functions": [],
+        "critical_validations": ["email verification", "session freshness for sensitive actions"],
+        "critical_events": ["login", "logout", "mfa_challenge"]
+      },
+      {
+        "name": "profile",
+        "frontend_access": "supabase.from('user_profiles').select/update",
+        "sql_rls_rpc": "RLS restricts row access to owner; admin override via service role",
+        "edge_functions": [],
+        "critical_validations": ["age gate", "country compatibility", "kyc status transitions"],
+        "critical_events": ["profile_update", "kyc_status_change"]
+      },
+      {
+        "name": "wallet",
+        "frontend_access": "read balances/ledger via Supabase client",
+        "sql_rls_rpc": "RPC: get_wallet_statement(), insert_ledger_tx() with strict reason_code checks",
+        "edge_functions": ["wallet-adjustment-admin (service role only)"],
+        "critical_validations": ["append-only ledger enforcement", "idempotency key uniqueness"],
+        "critical_events": ["wallet_credit", "wallet_debit", "ledger_export"]
+      },
+      {
+        "name": "games",
+        "frontend_access": "session creation via RPC + game outcome writes through controlled RPC",
+        "sql_rls_rpc": "RPC: start_game_session(), complete_game_session()",
+        "edge_functions": ["anti-cheat-evaluate"],
+        "critical_validations": ["ticket availability", "mode eligibility", "score sanity"],
+        "critical_events": ["game_session_started", "game_session_completed"]
+      },
+      {
+        "name": "seasons_and_leaderboards",
+        "frontend_access": "read leaderboard/materialized views",
+        "sql_rls_rpc": "RPC: get_leaderboard_snapshot(season_id, mode)",
+        "edge_functions": ["leaderboard-recompute-scheduled"],
+        "critical_validations": ["season active window", "tie-break determinism"],
+        "critical_events": ["rank_update", "season_reset"]
+      },
+      {
+        "name": "rewards",
+        "frontend_access": "catalog read via Supabase client; claim requests via Edge Function",
+        "sql_rls_rpc": "RPC: check_reward_eligibility(user_id,reward_id)",
+        "edge_functions": ["reward-claim"],
+        "critical_validations": ["reward credit sufficiency", "stock", "policy version lock"],
+        "critical_events": ["reward_claim_requested", "reward_claim_validated", "reward_claim_fulfilled"]
+      },
+      {
+        "name": "payments",
+        "frontend_access": "create payment intent via Edge Function",
+        "sql_rls_rpc": "payment_orders/payment_events persisted in SQL",
+        "edge_functions": ["payments-create-intent", "payments-webhook"],
+        "critical_validations": ["webhook signature", "idempotent settlement", "amount catalog match"],
+        "critical_events": ["payment_order_created", "payment_settled", "payment_failed"]
+      },
+      {
+        "name": "withdrawals",
+        "frontend_access": "request/status via Edge Function + realtime subscriptions",
+        "sql_rls_rpc": "RPC: precheck_withdrawal(user_id,amount)",
+        "edge_functions": ["withdrawal-request", "withdrawal-review-admin"],
+        "critical_validations": ["kyc level", "fraud score threshold", "minimum thresholds"],
+        "critical_events": ["withdrawal_requested", "withdrawal_approved", "withdrawal_rejected"]
+      },
+      {
+        "name": "notifications",
+        "frontend_access": "read/update notification preferences in SQL",
+        "sql_rls_rpc": "RLS user-scoped preferences table",
+        "edge_functions": ["notification-dispatch"],
+        "critical_validations": ["consent-aware channels"],
+        "critical_events": ["notification_sent", "preference_updated"]
+      },
+      {
+        "name": "compliance_admin",
+        "frontend_access": "admin UI uses secured service role backend proxy only",
+        "sql_rls_rpc": "audit views, consent ledger, anti_fraud_flags",
+        "edge_functions": ["admin-rule-publish", "admin-fraud-resolution"],
+        "critical_validations": ["dual-control on critical policy changes"],
+        "critical_events": ["rule_version_published", "admin_action_logged"]
+      }
+    ]
+  },
+  "database_schema": {
+    "entities": [
+      {"name": "users", "role": "Supabase auth-linked identity shadow", "key_columns": ["id", "email", "status", "created_at"], "indexes": ["unique(email)"]},
+      {"name": "user_profiles", "role": "profile and eligibility context", "key_columns": ["user_id", "display_name", "country", "dob", "kyc_level"], "indexes": ["country", "kyc_level"]},
+      {"name": "wallets", "role": "resource balances per currency", "key_columns": ["id", "user_id", "currency", "available", "locked"], "indexes": ["unique(user_id,currency)"]},
+      {"name": "wallet_ledger", "role": "append-only value journal", "key_columns": ["id", "wallet_id", "tx_type", "reason_code", "amount", "balance_after", "idempotency_key", "metadata", "created_at"], "indexes": ["wallet_id,created_at", "unique(idempotency_key)"]},
+      {"name": "games", "role": "game registry and published rules refs", "key_columns": ["id", "slug", "status", "rules_version_id"], "indexes": ["unique(slug)"]},
+      {"name": "game_sessions", "role": "session lifecycle", "key_columns": ["id", "user_id", "game_id", "mode", "ticket_cost", "started_at", "ended_at", "status"], "indexes": ["user_id,started_at", "game_id,mode"]},
+      {"name": "game_outcomes", "role": "session outcome and reward deltas", "key_columns": ["session_id", "score", "coins_delta", "xp_delta", "reward_credit_delta", "rng_ref_hash"], "indexes": ["session_id", "score"]},
+      {"name": "seasons", "role": "season configuration", "key_columns": ["id", "name", "start_at", "end_at", "rules_version_id", "status"], "indexes": ["status", "start_at"]},
+      {"name": "leaderboard_entries", "role": "rank snapshots", "key_columns": ["id", "season_id", "user_id", "mode", "score", "rank", "tie_break_payload"], "indexes": ["season_id,mode,rank", "season_id,user_id"]},
+      {"name": "reward_catalog", "role": "claimable rewards", "key_columns": ["id", "title", "reward_type", "credit_cost", "stock", "status"], "indexes": ["status", "reward_type"]},
+      {"name": "reward_orders", "role": "reward claims workflow", "key_columns": ["id", "user_id", "reward_id", "credits_spent", "status", "review_reason", "created_at"], "indexes": ["user_id,created_at", "status"]},
+      {"name": "withdrawals", "role": "external value exits", "key_columns": ["id", "user_id", "channel", "amount", "status", "risk_score", "created_at"], "indexes": ["user_id,created_at", "status"]},
+      {"name": "payment_orders", "role": "payment intent tracking", "key_columns": ["id", "user_id", "provider", "amount", "status", "created_at"], "indexes": ["user_id,created_at", "status"]},
+      {"name": "payment_events", "role": "webhook event log", "key_columns": ["id", "payment_order_id", "provider_event_id", "event_type", "payload_hash", "processed_at"], "indexes": ["unique(provider_event_id)", "payment_order_id"]},
+      {"name": "notifications", "role": "notification inbox and delivery status", "key_columns": ["id", "user_id", "channel", "template", "status", "sent_at"], "indexes": ["user_id,status"]},
+      {"name": "support_threads", "role": "support ticket container", "key_columns": ["id", "user_id", "category", "status", "priority", "created_at"], "indexes": ["user_id,status"]},
+      {"name": "support_messages", "role": "support message stream", "key_columns": ["id", "thread_id", "sender_type", "body", "created_at"], "indexes": ["thread_id,created_at"]},
+      {"name": "legal_consents", "role": "consent evidence ledger", "key_columns": ["id", "user_id", "consent_type", "policy_version", "granted", "ip", "created_at"], "indexes": ["user_id,consent_type", "policy_version"]},
+      {"name": "anti_fraud_flags", "role": "risk detection artifacts", "key_columns": ["id", "user_id", "flag_type", "severity", "status", "evidence_ref", "created_at"], "indexes": ["user_id,status", "severity"]},
+      {"name": "rule_versions", "role": "versioned business rules", "key_columns": ["id", "domain", "version", "payload", "effective_from", "effective_to", "created_at"], "indexes": ["unique(domain,version)"]},
+      {"name": "audit_logs", "role": "immutable admin and system audit trail", "key_columns": ["id", "actor_id", "actor_type", "action", "entity_type", "entity_id", "details", "created_at"], "indexes": ["entity_type,entity_id", "created_at"]}
+    ]
+  },
+  "initial_code_generation": {
+    "frontend_files": [
+      "apps/web/index.html",
+      "apps/web/vite.config.ts",
+      "apps/web/src/main.tsx",
+      "apps/web/src/app/App.tsx",
+      "apps/web/src/providers/AppProviders.tsx",
+      "apps/web/src/lib/supabaseClient.ts",
+      "apps/web/src/lib/auth.ts",
+      "apps/web/src/lib/wallet.ts",
+      "apps/web/src/lib/rewards.ts",
+      "apps/web/src/pages/DashboardPage.tsx",
+      "apps/web/src/pages/WalletPage.tsx",
+      "apps/web/src/pages/RewardsPage.tsx",
+      "apps/web/src/pages/CompetitionsPage.tsx"
+    ],
+    "shared_files": [
+      "packages/ui/src/index.tsx",
+      "packages/types/src/currencies.ts",
+      "packages/types/src/api-contracts.ts",
+      "packages/config/src/app-config.ts",
+      "packages/game-engine/src/index.ts",
+      "packages/shared/src/idempotency.ts"
+    ],
+    "data_files": [
+      "supabase/migrations/202611080001_init.sql",
+      "supabase/migrations/202611080002_rules_rewards.sql",
+      "supabase/seed/seed.sql"
+    ],
+    "supabase_files": [
+      "supabase/functions/payments-webhook/index.ts",
+      "supabase/functions/reward-claim/index.ts",
+      "supabase/functions/withdrawal-request/index.ts"
+    ]
+  },
+  "security_and_compliance_foundations": [
+    "Supabase Auth is the sole identity provider; all user data links to auth.uid() and sensitive actions require fresh session checks.",
+    "RLS is mandatory on all user-scoped tables (wallets, wallet_ledger, reward_orders, withdrawals, notifications, support).",
+    "Service role keys are restricted to Edge Functions and never exposed to frontend clients.",
+    "wallet_ledger is append-only: updates/deletes blocked by policy and DB trigger; all value movements use idempotency keys.",
+    "rule_versions table stores effective-dated rule payloads to guarantee traceability for probabilities/barèmes.",
+    "audit_logs captures admin actions, policy publication, manual fraud decisions, and payout reviews.",
+    "Supabase Storage uses private buckets by default for KYC/support artifacts with signed URL access windows.",
+    "Payment and withdrawal webhooks run in Edge Functions with signature verification and replay protection.",
+    "Consent evidence is persisted in legal_consents with policy version and timestamp for GDPR/CMP proof.",
+    "Public/private separation: public marketing content in frontend static assets; private financial/reward data behind RLS and authenticated queries."
+  ],
+  "delivery_impact": {
+    "what_changes": [
+      "Architecture pivots from custom Node backend to Supabase-managed backend and Edge Functions.",
+      "Frontend shifts from Next.js routing model to Vite SPA with explicit route/state management.",
+      "API contracts move from REST controllers to SQL/RPC + Edge Functions orchestration."
+    ],
+    "what_becomes_simpler": [
+      "MVP delivery speed improves by removing boilerplate backend services and auth plumbing.",
+      "Operational overhead decreases with managed Postgres/Auth/Storage/Realtime.",
+      "Realtime status updates for claims/withdrawals become simpler via Supabase subscriptions."
+    ],
+    "what_needs_extra_care": [
+      "RLS policy correctness and policy testing become critical to prevent privilege leaks.",
+      "Edge Function idempotency and webhook signature handling must be rigorously validated.",
+      "Service role secret handling and admin action auditing require strict governance.",
+      "Ledger immutability constraints must be enforced at SQL level, not only in application code."
+    ]
+  }
+}
