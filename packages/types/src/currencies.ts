@@ -1,0 +1,7 @@
+export enum CurrencyCode {
+  COINS = "COINS",
+  TICKETS = "TICKETS",
+  XP_SEASON = "XP_SEASON",
+  GEMS = "GEMS",
+  REWARD_CREDITS = "REWARD_CREDITS"
+}
